@@ -17,3 +17,5 @@ IG | Build time (min)
  tx | 1:27
 **tx total** | **40:43**
 **term**| **1:41:43**
+
+Note that *_genonce.sh* scripts have been edited to give 8GB heap space to the publisher.
