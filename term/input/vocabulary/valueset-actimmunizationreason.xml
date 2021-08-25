@@ -1,0 +1,62 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="actimmunizationreason" />
+    <url value="https://fhir.infoway-inforoute.ca/ValueSet/actimmunizationreason" />
+    <identifier id="2.16.840.1.113883.2.20.3.160" />
+    <version value="20210331" />
+    <name value="ActImmunizationReason" />
+    <status value="active" />
+    <description value="Reasons why an immunization was administered." />
+    <expansion>
+        <identifier value="urn:uuid:0575d1df-de16-4784-a082-f9a69c61f489" />
+        <timestamp value="2021-08-22T00:36:48-04:00" />
+        <total value="2" />
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <abstract value="false" />
+            <code value="711365007" />
+            <display value="High risk immunization" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="High risk immunization" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="immunisation pour risque élevé" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="8171000087105" />
+            <display value="Routine immunization" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Routine immunization" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="immunisation de routine" />
+            </designation>
+        </contains>
+    </expansion>
+</ValueSet>

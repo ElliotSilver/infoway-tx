@@ -1,0 +1,3167 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="healthcareproviderroletype" />
+    <url value="https://fhir.infoway-inforoute.ca/ValueSet/healthcareproviderroletype" />
+    <identifier id="2.16.840.1.113883.2.20.3.48" />
+    <version value="20210528" />
+    <name value="HealthcareProviderRoleType" />
+    <status value="active" />
+    <description value="A role type that is used to categorize an entity that delivers health care in an expected and professional manner to an entity in need of health care services. Examples: Registered Nurse, Chiropractor, Physician, Custodial Care Clinic." />
+    <expansion>
+        <identifier value="urn:uuid:264cdfa5-052e-4fbd-b946-6c69474bcc4c" />
+        <timestamp value="2021-08-19T01:51:27-04:00" />
+        <total value="101" />
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="ACP" />
+            <display value="Advanced Care Paramedic" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="An Advanced Care Paramedic is a health service provider who is an emergency services practitioner with a scope of practice of but not limited to: administering pre-hospital emergency medical care; administration of drugs; intubations; suturing; and monitoring transfusions and has a protected title of EMT-P, E.M.T.-P or Emergency Medical Technologist-Paramedic." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Advanced Care Paramedic" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Ambulancier(-ière) paramédical(e) en soins avancés" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="AH" />
+            <display value="Alternative Healer" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A term used for all types of alternative/complementary practitioners such as homeopath, naturopath, etc." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Alternative Healer" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Praticien(ne) de médecine douce" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="ALLGST" />
+            <display value="Allergist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="An allergist is specially trained to manage and treat allergies and asthma. Allergist are members of the healthcare team who are trained in the prevention, diagnosis, and treatment of immune system problems such as allergies, asthma, inherited immunodeficiency diseases, autoimmune diseases and even AIDS." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Allergist" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="ATR" />
+            <display value="Art Therapist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="The art therapist evaluates, prepares and adapts art therapy treatment plans for clients. They are able to work with groups or individuals with the goal of improving clients’ psychological, social and physical well-being. Art therapists use the process of self-expression, and the resulting artwork to help clients understand their emotional conflicts, develop social skills, improve self-esteem, manage addictions, reduce anxiety, and restore normal function to their lives." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Art Therapist" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="AUD" />
+            <display value="Audiologist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Audiologists are health service providers who are legally qualified to work with children and adults to prevent, assess, diagnose and provide treatment and counselling for hearing and balance disorders." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Audiologist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Audiologiste" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="AUDASSIST" />
+            <display value="Audiology Assistant" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health care provider who works in a supporting role and under the supervision of an audiologist in the delivery of audiology services." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Audiology Assistant" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Assistant(e) en audiologie" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="BMS" />
+            <display value="Behavior Management Specialist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="The Behaviour Management Specialist is responsible for providing behavioural management support services and developing and overseeing behaviour management plans with individuals, their families and community organizations. Assesses, develops, implements and evaluates intervention strategies, case planning and management and the provision of consultation and education to clients." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Behavior Management Specialist" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="CC" />
+            <display value="Clinical Counsellor" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Clinical Counsellors are health service providers who act to enhance mental health by providing responsive, accountable, and ethical counselling, consulting, assessment, testing, and training services to individuals, couples, families and groups." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Clinical Counsellor" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Conseiller(-ère) clinique" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="CCP" />
+            <display value="Critical Care Paramedic" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Critical Care Paramedics CCPs are paramedics who generally do not respond to 911 emergency calls, with the exception of helicopter &quot;scene&quot; calls. Instead they focus on transferring very sick patients from the hospital they are currently in to other hospitals that can provide a higher level of care." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Critical Care Paramedic" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Ambulancier(-ière) paramédical(e) en soins critiques" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="CDCI" />
+            <display value="Communicable Disease Case Investigator" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who plans, coordinates, supervises and participates in investigations and monitoring of confirmed and suspected cases of communicable diseases to ensure patient treatment and follow-up." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Communicable Disease Case Investigator" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Enquêteur(-trice), cas de maladies transmissibles" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="CE" />
+            <display value="Clinical Educator" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="The Clinical Educator is accountable for the assessment, planning, coordination, implementation, and evaluation of education for an organization's community teams, which will include ongoing provision of clinical support and expertise regarding current best practices in the community and facility setting." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Clinical Educator" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="CGN" />
+            <display value="Certified Graduate Nurse" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Certified Graduate Nurses are health service providers who are legally qualified to provide professional nursing services for individuals, families, groups and communities, deliver health-education programs and provide consultative nursing services to promote, maintain and restore patient health." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Certified Graduate Nurse" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Infirmier(-ière) diplômé(e) agréé(e)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="CHIRO" />
+            <display value="Chiropractic" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Chiropractors are health service providers who diagnose and treat patients' neuromuscular-skeletal disorders of the spine and other body joints by adjusting the spinal column or through other corrective manipulation. Chiropractors are usually in private practice or in clinics with other health practitioners." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Chiropractic" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Chiropraticien(ne)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="CI" />
+            <display value="Crisis Intervener" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A crisis Intervener is responsible for the initial interview and/or assessment of a client when they are in crisis to assure stabilization and to minimize the potential of long term psychological trauma. They may be responsible to provide counselling, support, information and guidance to clients and ensure goals are attainable and that the client plays an integral role in the decision making process." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Crisis Intervener" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="CLXT" />
+            <display value="Combined Lab and X-ray Technologist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Combined Laboratory and X-ray Technologists are health service providers who are legally qualified to conduct routine medical laboratory tests, perform radiography and electrocardiograms and set up, clean and maintain related equipment. Within Alberta: a registered Combined Laboratory and X-ray Technologist is a person who has a scope of practice including but not limited to analyze biological specimens, apply ionizing radiation and perform electrocardiography procedures, evaluate the above results for accuracy and reliability and have the protected title of Combined Laboratory X ray Technician; Combined Laboratory X ray Technologist; C.L.X.T." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Combined Lab and X-ray Technologist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Technologiste, services de laboratoire et de radiologie combinés" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="CM" />
+            <display value="Case manager" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Case manager duties vary depending on the clinical domain. The position could be rehabilitation case manager, nursing case manager, etc. Case Manager will be a single point of contact for program stakeholders; including physicians, nurses, patients and clinics. They will support patients throughout the entire patient support program, from enrollment to injection (including clinical case management services.) The Case Manager thrives in an environment that emphasizes teamwork, accountability, possesses a deep willingness to serve patients and drives positive patient experiences in a fast‐paced work environment." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Case manager" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="CMS" />
+            <display value="Child Management Specialist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="The Child Management Specialist is responsible for providing behaviour management, in-home teaching and training programs for families with children, up to six years of age, who are at risk for significant developmental delays and/or behaviour problems. Assesses, develops, implements and evaluates intervention strategies, case planning and management and the provision of consultation and education to client’s families, other professionals and community agencies." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Child Management Specialist" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="COORD" />
+            <display value="Coordinators" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Coordinators are responsible for coordinating services and supports for various health, community and school programs. A Coordinator’s role may include developing, implementing, monitoring and updating plans for services and supports within and outside the program to ensure needs of the individual, group or family are met and supported." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Coordinators" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="COUN" />
+            <display value="Counsellor" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Counsellors are Health Care Providers who practice the discipline of Counselling, which is the skilled and principled use of relationship to facilitate self-knowledge, emotional acceptance and growth and the optimal development of personal resources." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Counsellor" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Conseiller(-ère)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="CPD" />
+            <display value="Chiropodist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who diagnoses diseases, deformities and injuries of the human foot and communicate diagnoses to patients. They treat patients using braces, casts, shields, orthotic devices, physical therapy, or prescribed medications. Doctors of chiropody medicine may perform surgery the subcutaneous soft tissues of the foot only." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Chiropodist" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="CYCW" />
+            <display value="Child Youth Care Worker" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="The Child Youth Care Worker performs child and youth mental health work in establishing and maintaining therapeutic relationships with children and youth with complex mental health and/or addiction issues who require long term residential treatment at a youth treatment centre; Demonstrates understanding of behavioral and emotional needs and problems of youth and deals decisively with youth in crisis; Records observed data on young people’s behavior, interactions, and incidents; Initiates, organizes, monitors and/or participates in group activities as part of the total treatment plan; Develops, implements and oversees behavioral, recreational, social and life skills programs for young people." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Child Youth Care Worker" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="DEN" />
+            <display value="Dentist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Dentists, also called doctors of dental surgery (D.D.S.) or doctors of medical dentistry (D.M.D.), are health service providers who are legally qualified to diagnose, treat, prevent and control dental and orofacial disease." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Dentist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Dentiste" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="DENA" />
+            <display value="Dental Assistant" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Dental Assistants are health service providers who are legally qualified to work with health care professionals and related agencies in any or all of the following capacities: chair side assistant, intra-oral assistant, administrative assistant, community health assistant, dental education and research assistant." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Dental Assistant" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Assistant(e) dentaire" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="DENT" />
+            <display value="Denturist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Denturists are health service providers who are legally qualified to remove oral prosthesis (dentures). In partnership with other health care professionals, they assess, design, fabricate, repair and insert complete and removable partial dentures and diagnose related problems." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Denturist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Denturologiste" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="DH" />
+            <display value="Dental Hygienist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Dental Hygienists are health service providers who are legally qualified to assess and treat oral health conditions, provide preventive care, and educate people about dental hygiene procedures and strategies for promoting wellness." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Dental Hygienist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Hygiéniste dentaire" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="DT" />
+            <display value="Dental Technician" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who is legally qualified to fabricate, duplicate, alter and repair prosthetic and orthodontic dental devices. This provider type is also known as dental technologist." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Dental Technician" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Technicien(ne) dentaire" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="EDT" />
+            <display value="Electrodiagnostic Technician" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Electrodiagnostic Technician responsible for operating all electroneurodiagnostic instruments for the evaluation and diagnosis of neuropathological processes. Electrodiagnostic Technician conducts electroencephalographic and nerve conduction velocity studies on central and/or peripheral nerves; maintains electroneurodiagnostic instruments to recommended performance and calibrated levels; explains procedures to patient to facilitate patient cooperation and minimize anxiety during study; maintains accurate and complete data, calculations, tracings, and graphs of each electroneurodiagnostic study; maintains an environment of safety for patients, self and others." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Electrodiagnostic Technician" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="EMR" />
+            <display value="Emergency Medical Responder" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="An Emergency Medical Responder is a health service provider who is an emergency services practitioner with a scope of practice of but not limited to: the provision of cardiopulmonary respiration (CPR); basic airway management and defibrillation and has a protected title of EMR, E.M.R., or Emergency Medical Responder." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Emergency Medical Responder" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Répondant(e) médical(e) d’urgence" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="EPHP" />
+            <display value="Environmental public health professional" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Environmental public health professional have the working titles of both public health inspector and environmental health officer. They safeguard the environment and the health of Canadians by providing health protection services in a variety of regulated and non-regulated areas." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Environmental public health professional" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Professionnel(le) de la santé publique et de l’environnement" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="GENCOUN" />
+            <display value="Genetic Counsellor" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health care provider with specialized training and experience in the areas of medical genetics and counselling. Genetic counsellors work as members of a healthcare team, providing individuals and families with information on the nature, inheritance, and implications of genetic disorders to help them make informed medical and personal decisions." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Genetic Counsellor" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Conseiller(-ère) en génétique" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="HIM" />
+            <display value="Health information management professional" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Health information management (HIM) professionals are certified experts in the science and technology of health information management. They possess a unique blend of knowledge and skills encompassing biomedical sciences; information science and technology; the legal aspects of health information management, including privacy; and the integration of clinical and financial information." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Health information management professional" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Professionnel(le) de la gestion de l’information sur la santé" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="HM" />
+            <display value="Homeopath" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health care provider who assesses body system disorders and treatment using homeopathic techniques to promote, maintain or restore health." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Homeopath" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Homéopathe" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="HSE" />
+            <display value="Health service executive" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Health service executives administer, manage and operate health care delivery organizations. Their duties include: developing objectives for the organization; developing or approving policies and programs; selecting or approving the selection of middle management and other executive staff; coordinating the work of departments, divisions or regions; and representing the organization in negotiations or other official functions." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Health service executive" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Gestionnaire des services de santé" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="HSW" />
+            <display value="Home Support Worker" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Home support workers provide personal care and companionship for seniors, persons with disabilities and convalescent clients. Care is provided within the client's residence, in which the home support worker may also reside. Reference: http://www23.statcan.gc.ca/imdb/p3VD.pl?Function=getVD&amp;TVD=122372&amp;CVD=122376&amp;CPV=4412&amp;CST=01012011&amp;CLV=4&amp;MLV=4" />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Home Support Worker" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Préposé(e) aux services à domicile" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="KN" />
+            <display value="Kinesiologist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Kinesiologists are health service providers who conduct tests and assessments of human movements and fitness. Kinesiologists participate in rehabilitation, prevention, and management of movement, function or performance in the areas of sport, recreation, work, and exercise." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Kinesiologist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Kinésiologue" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="LPN" />
+            <display value="Licensed Practical Nurse" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who is legally qualified to provide care for individuals, families and groups in a variety of health care settings. They may practice independently or as part of a health care team." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Licensed Practical Nurse" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Infirmier(-ière) auxiliaire autorisé(e)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="LT" />
+            <display value="Lab Technician" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who conducts routine medical laboratory tests and set up, clean and maintain medical laboratory equipment. They are employed in medical laboratories in hospitals, clinics, research institutes and universities and in government research laboratories." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Lab Technician" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Technicien(ne) en laboratoire" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="MA" />
+            <display value="Medical assistant" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Medical assistant, also referred to as medical office assistant or medical office administrator, is often the first person patients meet when they enter clinical settings and play a key role in enhancing the patient experience. They have important roles in patient communication, clerical duties, organizing records and supporting health professionals to manage administrative processes." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Medical assistant" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Assistant(e) médical(e)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="MD" />
+            <display value="Medical Doctor" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who is or is studying to become academically and legally qualified as a doctor of medicine." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Medical Doctor" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Médecin" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="MDR" />
+            <display value="Medical resident" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A medical resident is physician who has finished medical school and is receiving training in a specialized area, such as surgery, internal medicine, pathology, or radiology. A medical resident is supervised by a legally responsible senior physician." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Medical resident" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Médecin-résident(e)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="MFT" />
+            <display value="Marriage and Family Therapist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Marriage and Family Therapists are mental health professionals trained in psychotherapy and family systems who diagnose and treat mental or emotional disorders within the context of marriage, couples and family systems. They treat a wide range of serious clinical problems including: depression, marital problems, anxiety, individual psychological problems, and child-parent problems." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Marriage and Family Therapist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Thérapeute matrimonial(e) et familial(e)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="MLT" />
+            <display value="Medical Laboratory Technologist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who is legally qualified to perform a variety of laboratory tests and procedures to assist physicians in diagnosing, monitoring, treating and preventing disease." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Medical Laboratory Technologist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Technologiste de laboratoire médical" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="MOH" />
+            <display value="Medical Officer of Health" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who hold the responsibility for the delivery of health care in a jurisdiction region. This includes Federal agencies or bodies (i.e RCMP, DND, Government of Canada) The health service provider is usually a Physician." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Medical Officer of Health" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Médecin hygiéniste" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="MP" />
+            <display value="Medical Physicist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Medical physicists have specialized training in the medical applications of physics, which involves the use of physical agents, including X-rays, particle beams, radioactive materials, ultrasound, magnetic and electric fields, heat and light in medical diagnosis and therapy. Reference: https://www.cihi.ca/en/spending-and-health-workforce/health-workforce/medical-physicists" />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Medical Physicist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Physicien(ne) médical(e)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="MRT" />
+            <display value="Medical radiation technologist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Medical radiation technologists (MRTs) are health care professionals who work in 4 different disciplines: • Radiological technology • Nuclear medicine • Magnetic resonance • Radiation therapy MRTs use sophisticated medical technologies to produce images that are essential for diagnosis, provide treatment for various medical conditions, and plan and deliver ionizing radiation for therapeutic purposes." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Medical radiation technologist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Technologue en radiation médicale" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="MUSTHP" />
+            <display value="Music Therapist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health care provider who uses music and musical elements to promote, maintain, and restore mental, physical, emotional, and spiritual health. Music has nonverbal, creative, structural, and emotional qualities. These are used in the therapeutic relationship to facilitate contact, interaction, self-awareness, learning, self-expression, communication, and personal development." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Music Therapist" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="NAHCA" />
+            <display value="Health Care Aide" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health care provider who assists nurses, hospital staff and physicians in the basic care of patients. They are employed in hospitals, nursing homes, assisted care facilities and other health care establishment, and usually serve elderly patients." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Health Care Aide" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Aide-infirmier(-ière) ou aide-soignant(e)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="ND" />
+            <display value="Naturopathic Doctor" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health care provider who is qualified to use natural, non-toxic healing therapies including: botanical medicine, clinical nutrition, hydrotherapy, homeopathy, naturopathic manipulation, traditional Chinese medicine / acupuncture to treat patients’ diseases and disorders, as well as prevention and lifestyle counselling to support and stimulate healing processes. This provider type is also known as naturopath." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Naturopathic Doctor" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Naturopathe" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="OCL" />
+            <display value="Ocularist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Ocularists construct, fit, customize, and maintain ocular prostheses, or artificial eyes. When disease, surgery, or trauma results in the loss of an eye, an ocularist helps to fit an acrylic eye into the eye socket." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Ocularist" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="OPT" />
+            <display value="Optometrist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who is legally qualified to examine patients' eyes, diagnose diseases and disorders of the eye and associated structures, prescribe and dispense eyeglasses and contact lenses, prescribe therapeutic drugs and recommend appropriate treatments." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Optometrist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Optométriste" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="OPTH" />
+            <display value="Ophthalmic Technician" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health care provider who assists ophthalmologists in providing care for patients by taking histories, performing various procedures and tests, and preparing patients to see the doctor." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Ophthalmic Technician" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Technicien(ne) en ophtalmologie" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="ORTH" />
+            <display value="Orthotist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health care provider who provides comprehensive patient care for individuals with disorders of limbs or spines by use of braces or other devices to correct alignment or provide support. Reference: http://www.opcanada.ca/english/the-profession/about-certified-orthotists-coc.html" />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Orthotist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Orthésiste" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="ORTHOP" />
+            <display value="Orthoptist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health care provider who specializes in the non-surgical treatment of visual disorders such as amblyopia, strabismus and diplopia. The orthoptist is the front line in the assessment and diagnosis of these disorders, and works with the ophthalmologist in formulating and implementing treatment plans. Reference: http://www.tcos.ca/english/about_orthoptics/index.php" />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Orthoptist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Orthoptiste" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="ORTHTECH" />
+            <display value="Orthopaedic Technologist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Orthopaedic Technologists are medically trained individuals who work under the direction of physicians and in collaboration with other members of the health care team of professionals. They are experts in plaster and synthetic cast application and are responsible for instructing patients on this form of treatment. They provide care to clients with orthopaedic problems through the application, adjustment and removal of a variety of casts, splints and traction fittings. Orthopaedic technologists perform casting services primarily in hospital fracture rooms. Some medical clinics now offer limited orthopaedic services as well." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Orthopaedic Technologist" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="OT" />
+            <display value="Occupational Therapist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who helps people whose capabilities have been impaired by physical or mental illness or injury, emotional or developmental problems, or the aging process to improve their ability to function in everyday life. They assist people in caring for themselves, returning to work and resuming community activities." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Occupational Therapist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Ergothérapeute" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="OTA" />
+            <display value="Occupational Therapist Assistant" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health care provider who provides support to an occupational therapist to deliver occupational therapy services. They work within a supervisory relationship with an occupational therapist." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Occupational Therapist Assistant" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Aide-ergothérapeute" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="PA" />
+            <display value="Physician Assistant" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health care professional that works under the supervision of a physician to provide a broad range of medical services as a physician extender, and does not act as an independent practitioner. They may provide services such as: conducting patient interviews, histories and physical examinations; performing selected diagnostic and therapeutic interventions or procedures; and counseling patients on preventive health care." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Physician Assistant" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Adjoint(e) au médecin" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="PCP" />
+            <display value="Primary Care Paramedic" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who is an emergency services practitioner with a scope of practice of but not limited to: maintaining intravenous medication; providing glucose testing; and oral administration of glucose." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Primary Care Paramedic" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Ambulancier(-ière) paramédical(e) en soins primaires" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="PESW" />
+            <display value="Peer Support Worker" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="The Peer Support Worker provides emotional and social support to others who share a common experience. Peer support is a supportive relationship between people who have a lived experience in common." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Peer Support Worker" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="PHARM" />
+            <display value="Pharmacist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Pharmacists are health service providers who are legally qualified to provide services and programs that are designed to promote health and well-being, and treat disease and other disorders through drug therapy, wellness promotion and disease state management." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Pharmacist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Pharmacien(ne)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="PHI" />
+            <display value="Public Health Inspector" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who provides an understanding of microbiology, risk assessment, environmental science and technology, food science, as well as skills and knowledge related to the tracking and control of communicable disease and the investigation and enforcement of legislation related to public health and the environment." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Public Health Inspector" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inspecteur(-trice) en santé publique" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="PHINT" />
+            <display value="Pharmacy Intern" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A healthcare proessional that under the supervision is authorised to perform the authorized acts of compounding, dispensing, and selling of drugs in a pharmacy. In the pharmacy setting, a intern must be under the direct supervision of a pharmacist who is physically present to engage in this area of pharmacy practice." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Pharmacy Intern" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Interne en pharmacie" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="PHST" />
+            <display value="Pharmacy Student" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Under the supervision of a pharmacist who is physically present, registered pharmacy students can compound, dispense or sell any drug in the pharmacy." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Pharmacy Student" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="étudiant(e) en pharmacie" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="PHYSIO" />
+            <display value="Physiotherapist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who assesses patients, plan, and carry out individually designed treatment programs to maintain, improve or restore physical functioning, alleviate pain and prevent physical dysfunction in patients by rehabilitating impairments and disabilities that affect the nervous, musculoskeletal, and cardiopulmonary systems, functional limitations arising from injuries and diseases that affect muscles, joints, and bones, as well as the nervous (brain, nerves, spinal cord), respiratory (lungs), circulatory (blood vessels), and cardiac (heart) systems." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Physiotherapist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Physiothérapeute" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="PO" />
+            <display value="Podiatrist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who diagnoses diseases, deformities and injuries of the human foot and communicate diagnoses to patients. They treat patients using braces, casts, shields, orthotic devices, physical therapy, or prescribed medications. Doctors of podiatric medicine may also perform surgery on the bones of the forefoot and the subcutaneous soft tissues of the foot, as well as x-rays." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Podiatrist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Podiatre" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="PP" />
+            <display value="Paramedic Practitioner" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who administers pre-hospital emergency medical care to patients with injuries or medical illnesses and transport them to hospitals or other medical facilities for further medical care. They are employed by private ambulance services, hospitals, fire departments, government departments and agencies, manufacturing firms, mining companies and other private sector establishments." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Paramedic Practitioner" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Praticien(ne) paramédical(e)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="PROS" />
+            <display value="Prosthetist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health care provider who is highly experienced in designing and manufacturing artificial body parts. They work closely with a team of medical professionals that may include physician, surgeon and physical and occupational therapist to ensure the best results for each individual. Reference: http://www.opcanada.ca/english/the-profession/about-certified-prosthetists-cpc.html" />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Prosthetist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Prothésiste" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="PRT" />
+            <display value="Physical Rehabilitation Therapist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who supports physiotherapist by applying physiotherapy treatments for rehabilitating impairments and disabilities that affect the nervous, musculoskeletal, and cardiopulmonary systems, functional limitations arising from injuries and diseases that affect muscles, joints, and bones, as well as the nervous (brain, nerves, spinal cord), respiratory (lungs), circulatory (blood vessels), and cardiac (heart) systems. Physical rehabilitation therapist (PRT) may perform needle intervention that is not considered as acupuncture. Physical rehabilitation therapist may not design an assessment plan or perform the initial evaluation however they may assist physiotherapists by executing assessment plan and continual treatment sessions." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Physical Rehabilitation Therapist" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="PSAP" />
+            <display value="Procedural sedation/anesthesia provider" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Refers to any provider administering anaesthesia but is usually an anaesthesiologist." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Procedural sedation/anesthesia provider" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Dispensateur (-trice) de sédation ou d’anesthésie procédurale" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="PSYCH" />
+            <display value="Psychologist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who is legally qualified to assess, diagnose and treat psychological, emotional and behavioural disorders. They also research and apply theories relating to behaviour and mental processes." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Psychologist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Psychologue" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="PSYCHT" />
+            <display value="Psychotherapist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health care provider who provides assessment and treatment of cognitive, emotional or behavioural disturbances by psychotherapeutic means, delivered through a therapeutic relationship based primarily on verbal or non-verbal communication." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Psychotherapist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Psychothérapeute" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="PTA" />
+            <display value="Physiotherapist Assistant" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health care provider who works under the supervision of a physiotherapist in the provision of physiotherapy services. Reference: http://www.physiotherapy.ca/Physiotherapy-Assistants http://www.physiotherapy.ca/About-Physiotherapy/Careers-in-Physiotherapy" />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Physiotherapist Assistant" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Aide-physiothérapeute" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="PTECH" />
+            <display value="Pharmacy Technician" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Pharmacy technicians are health service providers who are qualified to assist pharmacists in providing enhanced patient care through drug therapy and disease state management and well-being programs, and to provide pharmacy services, which may include prescription activities." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Pharmacy Technician" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Technicien(ne) en pharmacie" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RAC" />
+            <display value="Registered Acupuncturist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who is legally qualified to diagnose patients' diseases, physiological disorders and injuries according to traditional Chinese medical theories, and treat them by inserting acupuncture needles or by using other methods of stimulating different points on the body." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Registered Acupuncturist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Acupuncteur(-trice) autorisé(e)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RAP" />
+            <display value="Acupuncturist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who is qualified or professionally engaged in the practice of acupuncture." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Acupuncturist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Acupuncteur(-trice)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RC" />
+            <display value="Rehabilitation counsellor" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Rehabilitation counselors help people with physical, mental, developmental, or emotional disabilities live independently. They work with clients to overcome or manage the personal, social, or psychological effects of disabilities on employment or independent living." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Rehabilitation counsellor" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Conseiller(-ère) en réadaptation" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RCSW" />
+            <display value="Registered Clinical Social Worker" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Registrant of the College of Social Workers who has been granted Social Worker designation and is also authorized to make diagnosis of mental disorders/conditions." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Registered Clinical Social Worker" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Travailleur(-euse) social(e) clinicien(ne) autorisé(e)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RD" />
+            <display value="Registered Dietitian" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who is legally qualified to develop, implement and evaluate food and nutrition strategies to promote health and treat disease; manage food service systems; and develop and deliver related programs and policies." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Registered Dietitian" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Diététiste autorisé(e)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RECA" />
+            <display value="Recreation Therapy Assistant" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A healthcare professional who is responsible for the implementation of therapeutic recreational and social programming for clients. They provide assistance to the Recreation Development Specialist regarding the planning, development and implementation of leisure, social and therapeutic recreation services." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Recreation Therapy Assistant" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Assistant en ludothérapie" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RECT" />
+            <display value="Recreation Therapist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health care provider who practices in clinical, residential, and community settings, using treatment, education, and recreation services to help people with illnesses, disabilities, and other conditions to develop and use their leisure in ways that enhance their health, independence, and well-being." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Recreation Therapist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Ludothérapeute" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="REHABENG" />
+            <display value="Rehabilitation Engineer" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health care provider who provides professional engineering consultation, design, and construction of custom rehabilitation devices to improve the quality of life for those with physical disabilities. Areas addressed include mobility, communication, driving, independent living, and recreation." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Rehabilitation Engineer" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Ingénieur(e) en réadaptation" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RM" />
+            <display value="Registered Midwife" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who is legally qualified to provide continuity of care for women and babies throughout pregnancy, birth and six weeks after birth." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Registered Midwife" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Sage-femme autorisée" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RMT" />
+            <display value="Registered Massage Therapist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider qualified in the assessment of the soft tissues and joints of the body and the treatment and prevention of dysfunction, injury, pain and physical disorders of the soft tissues and joints by manual and physical methods to develop, maintain, rehabilitate or augment physical function, to relieve pain and promote health." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Registered Massage Therapist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Massothérapeute autorisé(e)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RN" />
+            <display value="Registered Nurse" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Registered nurses are health service providers who are legally qualified to provide professional nursing services for individuals, families, groups and communities, deliver health-education programs and provide consultative nursing services to promote, maintain and restore patient health." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Registered Nurse" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Infirmier(-ière) autorisé(e)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RNP" />
+            <display value="Registered Nurse Practitioner" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Nurse Practitioners are health service providers who are legally qualified and have advanced training in health assessment, health promotion and illness prevention. They diagnose and treat health problems, order and interpret tests, and prescribe drugs." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Registered Nurse Practitioner" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Infirmier(-ière) praticien(ne) autorisé(e)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RO" />
+            <display value="Optician" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who is legally qualified to design and dispense, select, arrange for the production of: eyeglasses, contact lenses, low vision aids and prosthetic ocular devices for customers, as well as mount lenses in eyeglass frames." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Optician" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Opticien(ne)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RPN" />
+            <display value="Registered Psychiatric Nurse" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A Registered Psychiatric Nurse is a health service provider who is (or is studying to become) academically and legally qualified to practice as a registered psychiatric nurse." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Registered Psychiatric Nurse" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Infirmier(-ière) psychiatrique autorisée" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RRT" />
+            <display value="Respiratory Therapist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who provides direct patient care by evaluating, treating and maintaining cardiopulmonary function." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Respiratory Therapist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inhalothérapeute" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RTEMG" />
+            <display value="Registered Electromyography Technologist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who is trained and certified to operate electromyography equipment." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Registered Electromyography Technologist" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RTMR" />
+            <display value="Radiation Technologist in Magnetic Resonance" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who is trained and certified to operate radiological and Magnetic Resonance Imaging equipment." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Radiation Technologist in Magnetic Resonance" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Technologue en radiation médicale spécialisé(e) en imagerie par résonance magnétique" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RTNM" />
+            <display value="Nuclear Medicine Technologist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who helps in the diagnosis and treatment of certain diseases. They administer radiopharmaceuticals (radioactive drugs) to patients and monitor the concentration levels of the drugs in the patient's body. Technologists work directly with patients under the supervision of a physician." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Nuclear Medicine Technologist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Technologue en médecine nucléaire" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RTR" />
+            <display value="Radiation Technologist in Radiation" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who is legally trained in radiation equipment." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Radiation Technologist in Radiation" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Technologue en radiation médicale spécialisé(e) en radiation" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="RTT" />
+            <display value="Radiation Technologist in Therapy" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who is legally trained in radiation therapy." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Radiation Technologist in Therapy" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Technologue en radiation médicale spécialisé(e) en radiothérapie" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="SAW" />
+            <display value="Social Assistance Worker" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="The Social Assistance Worker provides para-professional services to patients, clients, and their families in a supportive and assisting role to Social Workers and other Health Care Team Members. This is a professional support position which provides administrative and supportive services in the daily provision and coordination of activities necessary for effective client service delivery and case management within the spectrum of Children, seniors and Social Development (CSSD) programs as related to children and families. Responsibilities of this position include direct client/public contact, analytical and administrative functions." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Social Assistance Worker" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="SLP" />
+            <display value="Speech Language Pathologist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who is legally qualified to work with children and adults to prevent, assess, diagnose and provide treatment and counselling for speech, language, voice and swallowing disorders." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Speech Language Pathologist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Orthophoniste" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="SSW" />
+            <display value="Social Services Worker" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health care provider who assists clients in dealing with personal and social problems by delivering counselling, community services and social support programs." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Social Services Worker" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="ST" />
+            <display value="Speech Therapist" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Speech Therapists, Speech and Language Therapists (SLTs), or Speech-Language Pathologists (SLPs) are allied health professionals. Speech therapists hold certificates to practice following a degree course and clinical training. Additional specialization can occur in neurological disorders, child language, or vocal habilitation (vocology)." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Speech Therapist" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Thérapeute du langage" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="STN" />
+            <display value="Nursing Student" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Learning and teaching in a conscientious manner. Providing support for and advocating for a full continuum of health services, including health promotion and disease prevention and restorative, rehabilitative and palliative care services. Participating, to the best of their abilities, in research and other activities that contribute to the ongoing development of nursing knowledge. Respecting and promoting the autonomy of clients and helping them to express their health needs and values and to obtain appropriate information about, and services for, their health. Maintaining a client’s dignity and treating all clients with respect. Protecting the confidentiality of their clients’ personal and health information. Providing appropriate nursing care to all clients. Completing assignments and practicums according to expected outcomes. Seeking out and using available evidence, best practices, current information, research and technologies" />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Nursing Student" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="étudiant(e) infirmier(-ère)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="SW" />
+            <display value="Social Worker" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A health service provider who is legally qualified to help individuals, families, groups, communities and organizations develop the skills and resources they need to enhance their social functioning and social environments." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Social Worker" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Travailleur(-euse) sociale" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="TA" />
+            <display value="Therapy assistant" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A term used for a variety of provider types including Physical Therapy Assistant, Occupational Therapy Assistant, Speech-Language Pathologist Therapy Assistant, Recreation Therapy Assistant, etc." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Therapy assistant" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Aide-thérapeute" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/scptype" />
+            <abstract value="false" />
+            <code value="VET" />
+            <display value="Veterinarian" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A physician for animals and a practitioner of veterinary medicine." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Veterinarian" />
+            </designation>
+        </contains>
+    </expansion>
+</ValueSet>

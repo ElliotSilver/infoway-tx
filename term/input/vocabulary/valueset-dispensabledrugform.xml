@@ -1,0 +1,1277 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="dispensabledrugform" />
+    <url value="https://fhir.infoway-inforoute.ca/ValueSet/dispensabledrugform" />
+    <identifier id="2.16.840.1.113883.2.20.3.334" />
+    <version value="20160311" />
+    <name value="DispensableDrugForm" />
+    <status value="active" />
+    <description value="Description:Indicates the form in which the drug product must be, or has been manufactured, or extemporaneous/magistral prepared ." />
+    <expansion>
+        <identifier value="urn:uuid:e58d1b1a-5130-4bf2-9990-744f4255b21f" />
+        <timestamp value="2021-08-19T01:25:31-04:00" />
+        <total value="36" />
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="DROP" />
+            <display value="Drops" />
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="NDROP" />
+                <display value="Nasal Drops" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="OPDROP" />
+                <display value="Ophthalmic Drops" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="ORDROP" />
+                <display value="Oral Drops" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="OTDROP" />
+                <display value="Otic Drops" />
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="GASINHL" />
+            <display value="Gas for Inhalation" />
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="AER" />
+            <display value="Aerosol" />
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="BAINHL" />
+                <display value="Breath Activated Inhaler" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="INHLSOL" />
+                <display value="Inhalant Solution" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="MDINHL" />
+                <display value="Metered Dose Inhaler" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="NASSPRY" />
+                <display value="Nasal Spray" />
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="DERMSPRY" />
+            <display value="Dermal Spray" />
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="FOAM" />
+            <display value="Foam" />
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="FOAMAPL" />
+                <display value="Foam with Applicator" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="RECFORM" />
+                <display value="Rectal foam" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="VAGFOAM" />
+                <display value="Vaginal foam" />
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="VAGFOAMAPL" />
+                    <display value="Vaginal foam with applicator" />
+                </contains>
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="RECSPRY" />
+            <display value="Rectal Spray" />
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="VAGSPRY" />
+            <display value="Vaginal Spray" />
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="INHL" />
+            <display value="Inhalant" />
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="BAINHLPWD" />
+                <display value="Breath Activated Powder Inhaler" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="INHLPWD" />
+                <display value="Inhalant Powder" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="MDINHLPWD" />
+                <display value="Metered Dose Powder Inhaler" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="NASINHL" />
+                <display value="Nasal Inhalant" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="ORINHL" />
+                <display value="Oral Inhalant" />
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="PWDSPRY" />
+            <display value="Powder Spray" />
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="SPRYADAPT" />
+            <display value="Spray with Adaptor" />
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="LIQCLN" />
+            <display value="Liquid Cleanser" />
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="LIQSOAP" />
+                <display value="Medicated Liquid Soap" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="SHMP" />
+                <display value="Shampoo" />
+                <designation>
+                    <language value="en" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000550004" />
+                        <display value="Definition" />
+                    </use>
+                    <value value="A liquid soap or detergent used to clean the hair and scalp and is often used as a vehicle for dermatologic agents." />
+                </designation>
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="OIL" />
+            <display value="Oil" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="An unctuous, combustible substance which is liquid, or easily liquefiable, on warming, and is soluble in ether but insoluble in water. Such substances, depending on their origin, are classified as animal, mineral, or vegetable oils." />
+            </designation>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="TOPOIL" />
+                <display value="Topical Oil" />
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="SOL" />
+            <display value="Solution" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A liquid preparation that contains one or more chemical substances dissolved, i.e., molecularly dispersed, in a suitable solvent or mixture of mutually miscible solvents." />
+            </designation>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="DROP" />
+                <display value="Drops" />
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="NDROP" />
+                    <display value="Nasal Drops" />
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="OPDROP" />
+                    <display value="Ophthalmic Drops" />
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="ORDROP" />
+                    <display value="Oral Drops" />
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="OTDROP" />
+                    <display value="Otic Drops" />
+                </contains>
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="IPSOL" />
+                <display value="Intraperitoneal Solution" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="IRSOL" />
+                <display value="Irrigation Solution" />
+                <designation>
+                    <language value="en" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000550004" />
+                        <display value="Definition" />
+                    </use>
+                    <value value="A sterile solution intended to bathe or flush open wounds or body cavities; they're used topically, never parenterally." />
+                </designation>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="DOUCHE" />
+                    <display value="Douche" />
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000550004" />
+                            <display value="Definition" />
+                        </use>
+                        <value value="A liquid preparation, intended for the irrigative cleansing of the vagina, that is prepared from powders, liquid solutions, or liquid concentrates and contains one or more chemical substances dissolved in a suitable solvent or mutually miscible solvents." />
+                    </designation>
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="ENEMA" />
+                    <display value="Enema" />
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000550004" />
+                            <display value="Definition" />
+                        </use>
+                        <value value="A rectal preparation for therapeutic, diagnostic, or nutritive purposes." />
+                    </designation>
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="OPIRSOL" />
+                    <display value="Ophthalmic Irrigation Solution" />
+                </contains>
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="IVSOL" />
+                <display value="Intravenous Solution" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="ORALSOL" />
+                <display value="Oral Solution" />
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="ELIXIR" />
+                    <display value="Elixir" />
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000550004" />
+                            <display value="Definition" />
+                        </use>
+                        <value value="A clear, pleasantly flavored, sweetened hydroalcoholic liquid containing dissolved medicinal agents; it is intended for oral use." />
+                    </designation>
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="ORDROP" />
+                    <display value="Oral drops" />
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="RINSE" />
+                    <display value="Mouthwash/Rinse" />
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000550004" />
+                            <display value="Definition" />
+                        </use>
+                        <value value="An aqueous solution which is most often used for its deodorant, refreshing, or antiseptic effect." />
+                    </designation>
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="SYRUP" />
+                    <display value="Syrup" />
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000550004" />
+                            <display value="Definition" />
+                        </use>
+                        <value value="An oral solution containing high concentrations of sucrose or other sugars; the term has also been used to include any other liquid dosage form prepared in a sweet and viscid vehicle, including oral suspensions." />
+                    </designation>
+                </contains>
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="RECSOL" />
+                <display value="Rectal Solution" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="TOPSOL" />
+                <display value="Topical Solution" />
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="LIN" />
+                    <display value="Liniment" />
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000550004" />
+                            <display value="Definition" />
+                        </use>
+                        <value value="A solution or mixture of various substances in oil, alcoholic solutions of soap, or emulsions intended for external application." />
+                    </designation>
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="MUCTOPSOL" />
+                    <display value="Mucous Membrane Topical Solution" />
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="TINC" />
+                    <display value="Tincture" />
+                </contains>
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="CRM" />
+            <display value="Cream" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A semisolid dosage form containing one or more drug substances dissolved or dispersed in a suitable base; more recently, the term has been restricted to products consisting of oil-in-water emulsions or aqueous microcrystalline dispersions of long chain fatty acids or alcohols that are water washable and more cosmetically and aesthetically acceptable." />
+            </designation>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="NASCRM" />
+                <display value="Nasal Cream" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="OPCRM" />
+                <display value="Ophthalmic Cream" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="ORCRM" />
+                <display value="Oral Cream" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="OTCRM" />
+                <display value="Otic Cream" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="RECCRM" />
+                <display value="Rectal Cream" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="TOPCRM" />
+                <display value="Topical Cream" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="VAGCRM" />
+                <display value="Vaginal Cream" />
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="VAGCRMAPL" />
+                    <display value="Vaginal Cream with Applicator" />
+                </contains>
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="LTN" />
+            <display value="Lotion" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="The term &quot;lotion&quot; has been used to categorize many topical suspensions, solutions and emulsions intended for application to the skin." />
+            </designation>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="TOPLTN" />
+                <display value="Topical Lotion" />
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="OINT" />
+            <display value="Ointment" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A semisolid preparation intended for external application to the skin or mucous membranes." />
+            </designation>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="NASOINT" />
+                <display value="Nasal Ointment" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="OINTAPL" />
+                <display value="Ointment with Applicator" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="OPOINT" />
+                <display value="Ophthalmic Ointment" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="OTOINT" />
+                <display value="Otic Ointment" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="RECOINT" />
+                <display value="Rectal Ointment" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="TOPOINT" />
+                <display value="Topical Ointment" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="VAGOINT" />
+                <display value="Vaginal Ointment" />
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="VAGOINTAPL" />
+                    <display value="Vaginal Ointment with Applicator" />
+                </contains>
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="GEL" />
+            <display value="Gel" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A semisolid system consisting of either suspensions made up of small inorganic particles or large organic molecules interpenetrated by a liquid." />
+            </designation>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="GELAPL" />
+                <display value="Gel with Applicator" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="NASGEL" />
+                <display value="Nasal Gel" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="OPGEL" />
+                <display value="Ophthalmic Gel" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="OTGEL" />
+                <display value="Otic Gel" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="TOPGEL" />
+                <display value="Topical Gel" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="URETHGEL" />
+                <display value="Urethral Gel" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="VAGGEL" />
+                <display value="Vaginal Gel" />
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="VGELAPL" />
+                    <display value="Vaginal Gel with Applicator" />
+                </contains>
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="PASTE" />
+            <display value="Paste" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A semisolid dosage form that contains one or more drug substances intended for topical application." />
+            </designation>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="PUD" />
+                <display value="Pudding" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="TPASTE" />
+                <display value="Toothpaste" />
+                <designation>
+                    <language value="en" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000550004" />
+                        <display value="Definition" />
+                    </use>
+                    <value value="A paste formulation intended to clean and/or polish the teeth, and which may contain certain additional agents." />
+                </designation>
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="SUSP" />
+            <display value="Suspension" />
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="ITSUSP" />
+                <display value="Intrathecal Suspension" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="OPSUSP" />
+                <display value="Ophthalmic Suspension" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="ORSUSP" />
+                <display value="Oral Suspension" />
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="ERSUSP" />
+                    <display value="Extended-Release Suspension" />
+                    <contains>
+                        <system value="2.16.840.1.113883.5.85" />
+                        <abstract value="false" />
+                        <code value="ERSUSP12" />
+                        <display value="12 Hour Extended-Release Suspension" />
+                    </contains>
+                    <contains>
+                        <system value="2.16.840.1.113883.5.85" />
+                        <abstract value="false" />
+                        <code value="ERSUSP24" />
+                        <display value="24 Hour Extended Release Suspension" />
+                    </contains>
+                </contains>
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="OTSUSP" />
+                <display value="Otic Suspension" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="RECSUSP" />
+                <display value="Rectal Suspension" />
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="BAR" />
+            <display value="Bar" />
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="BARSOAP" />
+                <display value="Bar Soap" />
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="MEDBAR" />
+                    <display value="Medicated Bar Soap" />
+                </contains>
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="CHEWBAR" />
+                <display value="Chewable Bar" />
+                <designation>
+                    <language value="en" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000550004" />
+                        <display value="Definition" />
+                    </use>
+                    <value value="A solid dosage form usually in the form of a rectangle that is meant to be chewed." />
+                </designation>
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="BEAD" />
+            <display value="Beads" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A solid dosage form in the shape of a small ball." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="CAKE" />
+            <display value="Cake" />
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="CEMENT" />
+            <display value="Cement" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A substance that serves to produce solid union between two surfaces." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="CRYS" />
+            <display value="Crystals" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A naturally produced angular solid of definite form in which the ultimate units from which it is built up are systematically arranged; they are usually evenly spaced on a regular space lattice." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="DISK" />
+            <display value="Disk" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A circular plate-like organ or structure." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="FLAKE" />
+            <display value="Flakes" />
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="GRAN" />
+            <display value="Granules" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A small particle or grain." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="GUM" />
+            <display value="Chewing Gum" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A sweetened and flavored insoluble plastic material of various shapes which when chewed, releases a drug substance into the oral cavity." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="PAD" />
+            <display value="Pad" />
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="MEDPAD" />
+                <display value="Medicated Pad" />
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="PATCH" />
+            <display value="Patch" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A drug delivery system that contains an adhesived backing and that permits its ingredients to diffuse from some portion of it (e.g., the backing itself, a reservoir, the adhesive, or some other component) into the body from the external site where it is applied." />
+            </designation>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="TPATCH" />
+                <display value="Transdermal Patch" />
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="TPATH16" />
+                    <display value="16 Hour Transdermal Patch" />
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="TPATH24" />
+                    <display value="24 Hour Transdermal Patch" />
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="TPATH2WK" />
+                    <display value="Biweekly Transdermal Patch" />
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="TPATH72" />
+                    <display value="72 Hour Transdermal Patch" />
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="TPATHWK" />
+                    <display value="Weekly Transdermal Patch" />
+                </contains>
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="PELLET" />
+            <display value="Pellet" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A small sterile solid mass consisting of a highly purified drug (with or without excipients) made by the formation of granules, or by compression and molding." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="PILL" />
+            <display value="Pill" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A small, round solid dosage form containing a medicinal agent intended for oral administration." />
+            </designation>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="CAP" />
+                <display value="Capsule" />
+                <designation>
+                    <language value="en" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000550004" />
+                        <display value="Definition" />
+                    </use>
+                    <value value="A solid dosage form in which the drug is enclosed within either a hard or soft soluble container or &quot;shell&quot; made from a suitable form of gelatin." />
+                </designation>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="ORCAP" />
+                    <display value="Oral Capsule" />
+                    <contains>
+                        <system value="2.16.840.1.113883.5.85" />
+                        <abstract value="false" />
+                        <code value="ENTCAP" />
+                        <display value="Enteric Coated Capsule" />
+                        <contains>
+                            <system value="2.16.840.1.113883.5.85" />
+                            <abstract value="false" />
+                            <code value="ERENTCAP" />
+                            <display value="Extended Release Enteric Coated Capsule" />
+                        </contains>
+                    </contains>
+                    <contains>
+                        <system value="2.16.840.1.113883.5.85" />
+                        <abstract value="false" />
+                        <code value="ERCAP" />
+                        <display value="Extended Release Capsule" />
+                        <designation>
+                            <language value="en" />
+                            <use>
+                                <system value="http://snomed.info/sct" />
+                                <code value="900000000000550004" />
+                                <display value="Definition" />
+                            </use>
+                            <value value="A solid dosage form in which the drug is enclosed within either a hard or soft soluble container made from a suitable form of gelatin, and which releases a drug (or drugs) in such a manner to allow a reduction in dosing frequency as compared to that drug (or drugs) presented as a conventional dosage form." />
+                        </designation>
+                        <contains>
+                            <system value="2.16.840.1.113883.5.85" />
+                            <abstract value="false" />
+                            <code value="ERCAP12" />
+                            <display value="12 Hour Extended Release Capsule" />
+                        </contains>
+                        <contains>
+                            <system value="2.16.840.1.113883.5.85" />
+                            <abstract value="false" />
+                            <code value="ERCAP24" />
+                            <display value="24 Hour Extended Release Capsule" />
+                        </contains>
+                        <contains>
+                            <system value="2.16.840.1.113883.5.85" />
+                            <abstract value="false" />
+                            <code value="ERENTCAP" />
+                            <display value="Extended Release Enteric Coated Capsule" />
+                        </contains>
+                    </contains>
+                </contains>
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="TAB" />
+                <display value="Tablet" />
+                <designation>
+                    <language value="en" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000550004" />
+                        <display value="Definition" />
+                    </use>
+                    <value value="A solid dosage form containing medicinal substances with or without suitable diluents." />
+                </designation>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="ORTAB" />
+                    <display value="Oral Tablet" />
+                    <contains>
+                        <system value="2.16.840.1.113883.5.85" />
+                        <abstract value="false" />
+                        <code value="BUCTAB" />
+                        <display value="Buccal Tablet" />
+                        <contains>
+                            <system value="2.16.840.1.113883.5.85" />
+                            <abstract value="false" />
+                            <code value="SRBUCTAB" />
+                            <display value="Sustained Release Buccal Tablet" />
+                        </contains>
+                    </contains>
+                    <contains>
+                        <system value="2.16.840.1.113883.5.85" />
+                        <abstract value="false" />
+                        <code value="CAPLET" />
+                        <display value="Caplet" />
+                    </contains>
+                    <contains>
+                        <system value="2.16.840.1.113883.5.85" />
+                        <abstract value="false" />
+                        <code value="CHEWTAB" />
+                        <display value="Chewable Tablet" />
+                        <designation>
+                            <language value="en" />
+                            <use>
+                                <system value="http://snomed.info/sct" />
+                                <code value="900000000000550004" />
+                                <display value="Definition" />
+                            </use>
+                            <value value="A solid dosage form containing medicinal substances with or without suitable diluents that is intended to be chewed, producing a pleasant tasting residue in the oral cavity that is easily swallowed and does not leave a bitter or unpleasant after-taste." />
+                        </designation>
+                    </contains>
+                    <contains>
+                        <system value="2.16.840.1.113883.5.85" />
+                        <abstract value="false" />
+                        <code value="CPTAB" />
+                        <display value="Coated Particles Tablet" />
+                    </contains>
+                    <contains>
+                        <system value="2.16.840.1.113883.5.85" />
+                        <abstract value="false" />
+                        <code value="DISINTAB" />
+                        <display value="Disintegrating Tablet" />
+                        <designation>
+                            <language value="en" />
+                            <use>
+                                <system value="http://snomed.info/sct" />
+                                <code value="900000000000550004" />
+                                <display value="Definition" />
+                            </use>
+                            <value value="A solid dosage form containing medicinal substances which disintegrates rapidly, usually within a matter of seconds, when placed upon the tongue." />
+                        </designation>
+                    </contains>
+                    <contains>
+                        <system value="2.16.840.1.113883.5.85" />
+                        <abstract value="false" />
+                        <code value="DRTAB" />
+                        <display value="Delayed Release Tablet" />
+                    </contains>
+                    <contains>
+                        <system value="2.16.840.1.113883.5.85" />
+                        <abstract value="false" />
+                        <code value="ECTAB" />
+                        <display value="Enteric Coated Tablet" />
+                        <contains>
+                            <system value="2.16.840.1.113883.5.85" />
+                            <abstract value="false" />
+                            <code value="ERECTAB" />
+                            <display value="Extended Release Enteric Coated Tablet" />
+                        </contains>
+                    </contains>
+                    <contains>
+                        <system value="2.16.840.1.113883.5.85" />
+                        <abstract value="false" />
+                        <code value="ERTAB" />
+                        <display value="Extended Release Tablet" />
+                        <designation>
+                            <language value="en" />
+                            <use>
+                                <system value="http://snomed.info/sct" />
+                                <code value="900000000000550004" />
+                                <display value="Definition" />
+                            </use>
+                            <value value="A solid dosage form containing a drug which allows at least a reduction in dosing frequency as compared to that drug presented in conventional dosage form." />
+                        </designation>
+                        <contains>
+                            <system value="2.16.840.1.113883.5.85" />
+                            <abstract value="false" />
+                            <code value="ERECTAB" />
+                            <display value="Extended Release Enteric Coated Tablet" />
+                        </contains>
+                        <contains>
+                            <system value="2.16.840.1.113883.5.85" />
+                            <abstract value="false" />
+                            <code value="ERTAB12" />
+                            <display value="12 Hour Extended Release Tablet" />
+                        </contains>
+                        <contains>
+                            <system value="2.16.840.1.113883.5.85" />
+                            <abstract value="false" />
+                            <code value="ERTAB24" />
+                            <display value="24 Hour Extended Release Tablet" />
+                        </contains>
+                    </contains>
+                    <contains>
+                        <system value="2.16.840.1.113883.5.85" />
+                        <abstract value="false" />
+                        <code value="ORTROCHE" />
+                        <display value="Lozenge/Oral Troche" />
+                        <designation>
+                            <language value="en" />
+                            <use>
+                                <system value="http://snomed.info/sct" />
+                                <code value="900000000000550004" />
+                                <display value="Definition" />
+                            </use>
+                            <value value="A solid preparation containing one or more medicaments, usually in a flavored, sweetened base which is intended to dissolve or disintegrate slowly in the mouth." />
+                        </designation>
+                    </contains>
+                    <contains>
+                        <system value="2.16.840.1.113883.5.85" />
+                        <abstract value="false" />
+                        <code value="SLTAB" />
+                        <display value="Sublingual Tablet" />
+                    </contains>
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="VAGTAB" />
+                    <display value="Vaginal Tablet" />
+                </contains>
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="POWD" />
+            <display value="Powder" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="An intimate mixture of dry, finely divided drugs and/or chemicals that may be intended for internal or external use." />
+            </designation>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="TOPPWD" />
+                <display value="Topical Powder" />
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="RECPWD" />
+                    <display value="Rectal Powder" />
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.85" />
+                    <abstract value="false" />
+                    <code value="VAGPWD" />
+                    <display value="Vaginal Powder" />
+                </contains>
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="SUPP" />
+            <display value="Suppository" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A solid body of various weights and shapes, adapted for introduction into the rectal, vaginal, or urethral orifice of the human body; they usually melt, soften, or dissolve at body temperature." />
+            </designation>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="RECSUPP" />
+                <display value="Rectal Suppository" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="URETHSUPP" />
+                <display value="Urethral suppository" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="VAGSUPP" />
+                <display value="Vaginal Suppository" />
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="SWAB" />
+            <display value="Swab" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A wad of absorbent material usually wound around one end of a small stick and used for applying medication or for removing material from an area." />
+            </designation>
+            <contains>
+                <system value="2.16.840.1.113883.5.85" />
+                <abstract value="false" />
+                <code value="MEDSWAB" />
+                <display value="Medicated swab" />
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <abstract value="false" />
+            <code value="WAFER" />
+            <display value="Wafer" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A thin slice of material containing a medicinal agent." />
+            </designation>
+        </contains>
+    </expansion>
+</ValueSet>

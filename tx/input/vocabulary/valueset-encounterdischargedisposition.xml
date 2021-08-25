@@ -1,0 +1,242 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="encounterdischargedisposition" />
+    <url value="https://fhir.infoway-inforoute.ca/ValueSet/encounterdischargedisposition" />
+    <identifier id="2.16.840.1.113883.2.20.3.43" />
+    <version value="20210331" />
+    <name value="EncounterDischargeDisposition" />
+    <status value="active" />
+    <description value="Selected concepts that align with reportable discharge designations." />
+    <expansion>
+        <identifier value="urn:uuid:faba02fb-c544-4456-a555-70f5c05bbf73" />
+        <timestamp value="2021-08-19T01:24:57-04:00" />
+        <total value="11" />
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <abstract value="false" />
+            <code value="183486001" />
+            <display value="Admitted to alcohol detoxification center" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Admitted to alcohol detoxification center" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="admission à un centre de désintoxication pour alcooliques" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <abstract value="false" />
+            <code value="419099009" />
+            <display value="Deceased" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Deceased" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="décédé" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <abstract value="false" />
+            <code value="306700000" />
+            <display value="Discharge to long stay hospital" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Discharge to long stay hospital" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="congé vers un hôpital de soins de longue durée" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <abstract value="false" />
+            <code value="306691003" />
+            <display value="Discharge to residential home" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Discharge to residential home" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="congé pour une maison d'hébergement" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <abstract value="false" />
+            <code value="11545006" />
+            <display value="Emergency room admission, dead on arrival (DOA)" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Emergency room admission, dead on arrival (DOA)" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="admission à la salle d'urgence : décédé à l'arrivée" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <abstract value="false" />
+            <code value="75004002" />
+            <display value="Emergency room admission, died in emergency room" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Emergency room admission, died in emergency room" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="admission à la salle d'urgence : décédé dans la salle d'urgence" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <abstract value="false" />
+            <code value="50861005" />
+            <display value="Patient discharge, to legal custody" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Patient discharge, to legal custody" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <abstract value="false" />
+            <code value="225928004" />
+            <display value="Patient self-discharge against medical advice" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Patient self-discharge against medical advice" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <abstract value="false" />
+            <code value="57976004" />
+            <display value="Patient transfer, in-hospital, service-to-service" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Patient transfer, in-hospital, service-to-service" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <abstract value="false" />
+            <code value="19712007" />
+            <display value="Patient transfer, to another health care facility" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Patient transfer, to another health care facility" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <abstract value="false" />
+            <code value="237364002" />
+            <display value="Stillbirth" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Stillbirth" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="mortinaissance" />
+            </designation>
+        </contains>
+    </expansion>
+</ValueSet>

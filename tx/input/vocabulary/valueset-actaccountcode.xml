@@ -1,0 +1,95 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="actaccountcode" />
+    <url value="https://fhir.infoway-inforoute.ca/ValueSet/actaccountcode" />
+    <identifier id="2.16.840.1.113883.2.20.3.289" />
+    <version value="20160311" />
+    <name value="ActAccountCode" />
+    <status value="active" />
+    <description value="Description: Types of representation groupings of financial transactions that are tracked and reported together with a single balance. Examples: Patient billing accounts Cost center Cash" />
+    <expansion>
+        <identifier value="urn:uuid:06150842-b5a8-4486-b1cc-5c1dd904a944" />
+        <timestamp value="2021-08-22T00:34:27-04:00" />
+        <total value="4" />
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="CC" />
+            <display value="credit card" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Types of advance payment to be made on a plastic card usually issued by a financial institution used of purchasing services and/or products." />
+            </designation>
+            <contains>
+                <system value="2.16.840.1.113883.5.4" />
+                <abstract value="false" />
+                <code value="AE" />
+                <display value="American Express" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.4" />
+                <abstract value="false" />
+                <code value="DN" />
+                <display value="Diner's Club" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.4" />
+                <abstract value="false" />
+                <code value="DV" />
+                <display value="Discover Card" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.4" />
+                <abstract value="false" />
+                <code value="MC" />
+                <display value="Master Card" />
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.4" />
+                <abstract value="false" />
+                <code value="V" />
+                <display value="Visa" />
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="ACCTRECEIVABLE" />
+            <display value="account receivable" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="An account for collecting charges, reversals, adjustments and payments, including deductibles, copayments, coinsurance (financial transactions) credited or debited to the account receivable account for a patient's encounter." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="CASH" />
+            <display value="Cash" />
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="PBILLACCT" />
+            <display value="patient billing account" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="An account representing charges and credits (financial transactions) for a patient's encounter." />
+            </designation>
+        </contains>
+    </expansion>
+</ValueSet>

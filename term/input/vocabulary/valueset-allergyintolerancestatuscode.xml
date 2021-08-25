@@ -1,0 +1,137 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="allergyintolerancestatuscode" />
+    <url value="https://fhir.infoway-inforoute.ca/ValueSet/allergyintolerancestatuscode" />
+    <identifier id="2.16.840.1.113883.2.20.3.211" />
+    <version value="20210331" />
+    <name value="AllergyIntoleranceStatusCode" />
+    <status value="active" />
+    <description value="Represents whether an allergy/intolerance is “active” or resolved (indicating no longer active)." />
+    <expansion>
+        <identifier value="urn:uuid:2bfb9aa4-8571-4298-ba0b-4d08e42be578" />
+        <timestamp value="2021-08-19T01:21:20-04:00" />
+        <total value="7" />
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <abstract value="false" />
+            <code value="55561003" />
+            <display value="Active" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Active" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="actif" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <abstract value="false" />
+            <code value="89925002" />
+            <display value="Canceled" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Canceled" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <abstract value="false" />
+            <code value="410605003" />
+            <display value="Confirmed present" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Confirmed present" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="présence confirmée" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="785327971000087107" />
+            <display value="Invalidated" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Invalidated" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="475855351000087108" />
+            <display value="Proposed" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Proposed" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <abstract value="false" />
+            <code value="723511001" />
+            <display value="Refuted" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Refuted" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://snomed.info/sct" />
+            <abstract value="false" />
+            <code value="723506003" />
+            <display value="Resolved" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Resolved" />
+            </designation>
+        </contains>
+    </expansion>
+</ValueSet>

@@ -1,0 +1,359 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="actcareeventtype" />
+    <url value="https://fhir.infoway-inforoute.ca/ValueSet/actcareeventtype" />
+    <identifier id="2.16.840.1.113883.2.20.3.2" />
+    <version value="20160311" />
+    <name value="ActCareEventType" />
+    <status value="active" />
+    <description value="Codes identifying types or categories of a care composition (i.e. encounter, outpatient encounter, emergency encounter, day surgery encounter, short visit encounter, episode or care event)." />
+    <expansion>
+        <identifier value="urn:uuid:963d3ddd-bd36-45b2-b281-8e7ee2f08fcd" />
+        <timestamp value="2021-08-22T00:35:48-04:00" />
+        <total value="23" />
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="ALC" />
+            <display value="Alternative Level of Care" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Provision of Alternate Level of Care to a patient in an acute bed. Patient is waiting for placement in a long-term care facility and is unable to return home." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="CARD" />
+            <display value="Cardiology" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Provision of diagnosis and treatment of diseases and disorders affecting the heart" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="CHR" />
+            <display value="Chronic" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Provision of recurring care for chronic illness." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="DNTL" />
+            <display value="Dental" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Provision of treatment for oral health and/or dental surgery." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="DRGRHB" />
+            <display value="Drug Rehab" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Provision of treatment for drug abuse." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="GENRL" />
+            <display value="General" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="General care performed by a general practitioner or family doctor as a responsible provider for a patient." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="MED" />
+            <display value="Medical" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Provision of diagnostic and/or therapeutic treatment." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="OBS" />
+            <display value="Obstetrics" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Provision of care of women during pregnancy, childbirth and immediate postpartum period. Also known as Maternity." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="ONC" />
+            <display value="Oncology" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Provision of treatment and/or diagnosis related to tumors and/or cancer." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="PALL" />
+            <display value="Palliative" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Provision of care for patients who are living or dying from an advanced illness." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="PED" />
+            <display value="Pediatrics" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Provision of diagnosis and treatment of diseases and disorders affecting children." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="PHAR" />
+            <display value="Pharmaceutical" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Pharmaceutical care performed by a pharmacist." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="PHYRHB" />
+            <display value="Physical Rehab" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Provision of treatment for physical injury." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="PSYCH" />
+            <display value="Psychiatric" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Provision of treatment of psychiatric disorder relating to mental illness." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="SURG" />
+            <display value="Surgical" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Provision of surgical treatment." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="AMB" />
+            <display value="ambulatory" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A comprehensive term for health care provided in a healthcare facility (e.g. a practitioner's office, clinic setting, outreach clinic, or hospital) on a nonresident basis. The term ambulatory usually implies that the patient has come to the location and is not assigned to a bed. Sometimes referred to as an outpatient encounter." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="EMER" />
+            <display value="emergency" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A patient encounter that takes place at a dedicated healthcare service delivery location where the patient receives immediate evaluation and treatment, provided until the patient can be discharged or responsibility for the patient's care is transferred elsewhere (for example, the patient could be admitted as an inpatient or transferred to another facility.)" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="FLD" />
+            <display value="field" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A patient encounter that takes place both outside a dedicated service delivery location and outside a patient's residence. Example locations might include an accident site, street visit, and at a supermarket." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="HH" />
+            <display value="home health" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Healthcare encounter that takes place in the residence of the patient or a designee" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="IMP" />
+            <display value="inpatient encounter" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="An inpatient encounter is an encounter in which the patient is admitted to a hospital or equivalent facility." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="SS" />
+            <display value="short stay" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="An encounter where the patient is admitted to a health care facility for a predetermined length of time, usually between 24 and 48 hours." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="VR" />
+            <display value="virtual" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A patient encounter where the patient and the practitioner(s) are not in the same physical location. Examples include telephone conference, email exchange, robotic surgery, and televideo conference" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="PRENC" />
+            <display value="pre-admission" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A patient encounter where patient is scheduled or planned to receive service delivery in the future, and the patient is given a pre-admission account number. When the patient comes back for subsequent service, the pre-admission encounter is selected and is encapsulated into the service registration, and a new account number is generated. Usage Note: This is intended to be used in advance of encounter types such as ambulatory, inpatient encounter, virtual, etc." />
+            </designation>
+        </contains>
+    </expansion>
+</ValueSet>

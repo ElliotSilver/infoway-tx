@@ -1,0 +1,2774 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="vaccineadministeredtradenamecode" />
+    <url value="https://fhir.infoway-inforoute.ca/ValueSet/vaccineadministeredtradenamecode" />
+    <identifier id="2.16.840.1.113883.2.20.3.281" />
+    <version value="20210331" />
+    <name value="VaccineAdministeredTradeNameCode" />
+    <status value="active" />
+    <description value="The scope of this subset is vaccines that are currently licensed for use in Canada and those obtained through special access programs for use in Canada. The subset includes concepts represented by the trade name (brand name) of the vaccine administered to the client. This content is intended to be used when populating a record at the point of immunization." />
+    <expansion>
+        <identifier value="urn:uuid:334a054b-ab62-4e3e-a724-1a94fdbf18f0" />
+        <timestamp value="2021-08-19T01:54:50-04:00" />
+        <total value="115" />
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7031000087105" />
+            <display value="Hib Act-HIB SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Hib Act-HIB SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Hib Act-HIB SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="23711000087101" />
+            <display value="DTaP-Hib ACTacel SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DTaP-Hib ACTacel SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DCaT-Hib ACTacel SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7431000087103" />
+            <display value="Tdap ADACEL SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Tdap ADACEL SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="dcaT ADACEL SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7481000087104" />
+            <display value="Tdap-IPV ADACEL-POLIO SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Tdap-IPV ADACEL-POLIO SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="dcaT-VPI ADACEL-POLIO SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="24381000087107" />
+            <display value="Inf AFLURIA TETRA SEQ" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf AFLURIA TETRA SEQ" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf AFLURIA TETRA SEQ" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7581000087103" />
+            <display value="Inf Agriflu NVD" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf Agriflu NVD" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf Agriflu NVD" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="22971000087103" />
+            <display value="Inf AGRIFLU SEQ" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf AGRIFLU SEQ" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf AGRIFLU SEQ" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="28761000087108" />
+            <display value="COVID-19 ASTRAZENECA COVID-19 VACCINE AZC" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="COVID-19 ASTRAZENECA COVID-19 VACCINE AZC" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="COVID-19 VACCIN D’ASTRAZENECA CONTRE LA COVID-19 AZC" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="6851000087107" />
+            <display value="HA AVAXIM SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HA AVAXIM SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HA AVAXIM SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="6861000087105" />
+            <display value="HA AVAXIM - Pediatric SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HA AVAXIM - Pediatric SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HA AVAXIM - Pédiatrique SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7021000087108" />
+            <display value="BCG Freeze-dried Glutamate BCG Vaccine Japan JBCG" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="BCG Freeze-dried Glutamate BCG Vaccine Japan JBCG" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="BCG lyophilisé avec glutamate Japan JBCG" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="26521000087106" />
+            <display value="BCG Vaccine IDM" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="BCG Vaccine IDM" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="BCG vaccin IDM" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="21671000087103" />
+            <display value="Men-B BEXSERO GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-B BEXSERO GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-B BEXSERO GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="19311000087109" />
+            <display value="Men-B BEXSERO NVD" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-B BEXSERO NVD" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-B BEXSERO NVD" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7441000087109" />
+            <display value="Tdap BOOSTRIX GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Tdap BOOSTRIX GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="dcaT BOOSTRIX GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7491000087102" />
+            <display value="Tdap-IPV BOOSTRIX-POLIO GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Tdap-IPV BOOSTRIX-POLIO GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="dcaT-VPI BOOSTRIX-POLIO GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7341000087101" />
+            <display value="HPV-2 CERVARIX GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HPV-2 CERVARIX GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="VPH-2 CERVARIX GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="23771000087108" />
+            <display value="Hib-HB COMVAX MCI" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Hib-HB COMVAX MCI" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Hib-HB COMVAX MCI" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="28571000087109" />
+            <display value="COVID-19 Vaccine Moderna mRNA-1273 Mod" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="COVID-19 Vaccine Moderna mRNA-1273 Mod" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="COVID-19 Vaccin de Moderna contre la COVID-19 ARNm-1273 Mod" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="28961000087105" />
+            <display value="COVID-19 COVISHIELD VP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="COVID-19 COVISHIELD VP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="COVID-19 COVISHIELD VP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7401000087106" />
+            <display value="Chol-Ecol-O DUKORAL CSA" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Chol-Ecol-O DUKORAL CSA" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Chol-Ecol-O DUKORAL CSA" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="24201000087108" />
+            <display value="Chol-Ecol-O DUKORAL VAL" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Chol-Ecol-O DUKORAL VAL" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Chol-Ecol-O DUKORAL VAL" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="6921000087107" />
+            <display value="HB Engerix B pediatric GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HB Engerix B pediatric GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HB Engerix B pédiatrique GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="6911000087104" />
+            <display value="HB Engerix B GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HB Engerix B GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HB Engerix B GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="26541000087102" />
+            <display value="HA EPAXAL BB" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HA EPAXAL BB" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HA EPAXAL BB" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7591000087101" />
+            <display value="Inf FLUAD NVD" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUAD NVD" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUAD NVD" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="22981000087101" />
+            <display value="Inf FLUAD SEQ" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUAD SEQ" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUAD SEQ" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="28391000087101" />
+            <display value="Inf FLUAD Pediatric SEQ" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUAD Pediatric SEQ" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUAD Pédiatrique SEQ" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="28491000087107" />
+            <display value="Inf FLUCELVAX QUAD SEQ" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUCELVAX QUAD SEQ" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUCELVAX QUAD SEQ" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="20811000087102" />
+            <display value="Inf FLULAVAL TETRA IDB" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLULAVAL TETRA IDB" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLULAVAL TETRA IDB" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7571000087100" />
+            <display value="Inf FLUMIST AZC" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUMIST AZC" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUMIST AZC" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="20741000087105" />
+            <display value="Inf FLUMIST QUADRIVALENT AZC" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUMIST QUADRIVALENT AZC" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUMIST QUADRIVALENT AZC" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7541000087108" />
+            <display value="Inf FLUVIRAL IDB" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUVIRAL IDB" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUVIRAL IDB" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="21931000087105" />
+            <display value="Inf FLUZONE High-Dose SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUZONE High-Dose SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUZONE haute dose SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="20691000087107" />
+            <display value="Inf FLUZONE Quadrivalent SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUZONE Quadrivalent SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUZONE Quadrivalent SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="8651000087109" />
+            <display value="Inf FLUZONE SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUZONE SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf FLUZONE SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="26551000087104" />
+            <display value="TBE FSME-IMMUN Bax" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="TBE FSME-IMMUN Bax" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="ETT FSME-IMMUN Bax" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7351000087103" />
+            <display value="HPV-4 GARDASIL MC" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HPV-4 GARDASIL MC" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="VPH-4 GARDASIL MC" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="20871000087109" />
+            <display value="HPV-9 GARDASIL 9 MC" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HPV-9 GARDASIL 9 MC" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="VPH-9 GARDASIL 9 MC" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="6871000087101" />
+            <display value="HA Havrix 1440 GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HA Havrix 1440 GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HA Havrix 1440 GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="6881000087104" />
+            <display value="HA Havrix 720 Junior GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HA Havrix 720 Junior GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HA Havrix 720 Junior GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7041000087104" />
+            <display value="Hib Hiberix GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Hib Hiberix GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Hib Hiberix GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7361000087100" />
+            <display value="IPV IMOVAX Polio SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="IPV IMOVAX Polio SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="VPI IMOVAX Polio SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7381000087106" />
+            <display value="Rab Imovax Rabies SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Rab Imovax Rabies SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Rage Imovax Rage SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="26571000087105" />
+            <display value="Sma IMVAMUNE BN" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Sma IMVAMUNE BN" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Sma IMVAMUNE BN" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7451000087107" />
+            <display value="DTaP-HB-IPV-Hib INFANRIX hexa GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DTaP-HB-IPV-Hib INFANRIX hexa GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DCaT-HB-VPI-Hib INFANRIX hexa GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7461000087105" />
+            <display value="DTaP-IPV INFANRIX-IPV GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DTaP-IPV INFANRIX-IPV GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DCaT-VPI INFANRIX-IPV GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7501000087105" />
+            <display value="DTaP-IPV-Hib INFANRIX-IPV/Hib GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DTaP-IPV-Hib INFANRIX-IPV/Hib GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DCaT-VPI-Hib INFANRIX-IPV/Hib GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="28591000087108" />
+            <display value="Inf INFLUSPLIT TETRA GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf INFLUSPLIT TETRA GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf INFLUSPLIT TETRA GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="22681000087109" />
+            <display value="Inf INFLUVAC BGP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf INFLUVAC BGP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf INFLUVAC BGP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="28611000087103" />
+            <display value="Inf INFLUVAC TETRA BGP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf INFLUVAC TETRA BGP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf INFLUVAC TETRA BGP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7611000087106" />
+            <display value="Inf Intanza 15 micrograms SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf Intanza 15 micrograms SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf Intanza 15 microgrammes SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7601000087109" />
+            <display value="Inf Intanza 9 micrograms SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf Intanza 9 micrograms SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf Intanza 9 microgrammes SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7151000087100" />
+            <display value="JE IXIARO IAG" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="JE IXIARO IAG" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="EJ IXIARO IAG" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="21771000087109" />
+            <display value="JE IXIARO VAL" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="JE IXIARO VAL" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="EJ IXIARO VAL" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="28951000087107" />
+            <display value="COVID-19 JANSSEN COVID-19 VACCINE Jan" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="COVID-19 JANSSEN COVID-19 VACCINE Jan" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="COVID-19 JANSSEN COVID-19 VACCINE Jan" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="22691000087106" />
+            <display value="DTaP-IPV KINRIX GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DTaP-IPV KINRIX GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DCaT-VPI KINRIX GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7051000087101" />
+            <display value="Hib Liquid PedvaxHIB MC" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Hib Liquid PedvaxHIB MC" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Hib PedvaxHIB liquide MC" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7161000087102" />
+            <display value="MMR M-M-R II MC" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="MMR M-M-R II MC" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="RRO M-M-R II MC" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7131000087109" />
+            <display value="Men-C-ACYW-135 Menactra SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-ACYW-135 Menactra SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-ACYW-135 Menactra SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="26581000087107" />
+            <display value="Men-C-C MENINGITEC NB" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-C MENINGITEC NB" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-C MENINGITEC NB" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="21701000087104" />
+            <display value="Men-C-C MENJUGATE GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-C MENJUGATE GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-C MENJUGATE GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7071000087107" />
+            <display value="Men-C-C MENJUGATE NVD" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-C MENJUGATE NVD" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-C MENJUGATE NVD" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="21691000087104" />
+            <display value="Men-C-C MENJUGATE Liquid GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-C MENJUGATE Liquid GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-C MENJUGATE liquide GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="21681000087101" />
+            <display value="Men-C-ACYW-135 Menveo GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-ACYW-135 Menveo GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-ACYW-135 Menveo GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7141000087103" />
+            <display value="Men-C-ACYW-135 Menveo NVD" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-ACYW-135 Menveo NVD" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-ACYW-135 Menveo NVD" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7081000087109" />
+            <display value="Men-C-C NeisVac-C GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-C NeisVac-C GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-C NeisVac-C GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="21891000087103" />
+            <display value="Men-C-C NeisVac-C Pfiz" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-C NeisVac-C Pfiz" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-C NeisVac-C Pfiz" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="19351000087108" />
+            <display value="Men-C-ACYW-135 NIMENRIX GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-ACYW-135 NIMENRIX GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-ACYW-135 NIMENRIX GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="21781000087106" />
+            <display value="Men-C-ACYW-135 NIMENRIX Pfiz" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-ACYW-135 NIMENRIX Pfiz" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-C-ACYW-135 NIMENRIX Pfiz" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7521000087104" />
+            <display value="DTaP-IPV-Hib PEDIACEL SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DTaP-IPV-Hib PEDIACEL SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DCaT-VPI-Hib PEDIACEL SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="20841000087101" />
+            <display value="DTaP-HB-IPV PEDIARIX GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DTaP-HB-IPV PEDIARIX GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DCaT-HB-VPI PEDIARIX GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7511000087107" />
+            <display value="DTaP-IPV-Hib PENTACEL SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DTaP-IPV-Hib PENTACEL SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DCaT-VPI-Hib PENTACEL SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="22181000087103" />
+            <display value="DPT-HB-Hib PENTAVAC PFS SII" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DPT-HB-Hib PENTAVAC PFS SII" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DCT-HB-Hib PENTAVAC PFS SII" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="28581000087106" />
+            <display value="COVID-19 PFIZER-BIONTECH COVID-19 VACCINE mRNA PB" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="COVID-19 PFIZER-BIONTECH COVID-19 VACCINE mRNA PB" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="COVID-19 VACCIN CONTRE LA COVID-19 DE PFIZER-BIONTECH ARNm PB" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7631000087101" />
+            <display value="Pneu-P-23 Pneumo 23 SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Pneu-P-23 Pneumo 23 SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Pneu-P-23 Pneumo 23 SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7641000087107" />
+            <display value="Pneu-P-23 Pneumovax 23 MC" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Pneu-P-23 Pneumovax 23 MC" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Pneu-P-23 Pneumovax 23 MC" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7681000087102" />
+            <display value="Pneu-C-13 Prevnar 13 Pfiz" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Pneu-C-13 Prevnar 13 Pfiz" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Pneu-C-13 Prevnar 13 Pfiz" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7651000087105" />
+            <display value="Pneu-C-7 Prevnar Pfiz" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Pneu-C-7 Prevnar Pfiz" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Pneu-C-7 Prevnar Pfiz" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7171000087106" />
+            <display value="MMR PRIORIX GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="MMR PRIORIX GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="RRO PRIORIX GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7181000087108" />
+            <display value="MMR-Var PRIORIX-TETRA GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="MMR-Var PRIORIX-TETRA GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="RRO-Var PRIORIX-TETRA GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="19441000087102" />
+            <display value="MMR-Var ProQuad MC" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="MMR-Var ProQuad MC" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="RRO-Var ProQuad MC" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7471000087101" />
+            <display value="DTaP-IPV QUADRACEL SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DTaP-IPV QUADRACEL SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DCaT-VPI QUADRACEL SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="21711000087102" />
+            <display value="Rab RabAvert GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Rab RabAvert GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Rage RabAvert GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7391000087108" />
+            <display value="Rab RabAvert NVD" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Rab RabAvert NVD" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Rage RabAvert NVD" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="6951000087100" />
+            <display value="HB RECOMBIVAX HB MC" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HB RECOMBIVAX HB MC" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HB RECOMBIVAX HB MC" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="6941000087103" />
+            <display value="HB RECOMBIVAX HB dialysis MC" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HB RECOMBIVAX HB dialysis MC" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HB RECOMBIVAX HB pour dialyse MC" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="6931000087109" />
+            <display value="HB RECOMBIVAX HB pediatric MC" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HB RECOMBIVAX HB pediatric MC" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HB RECOMBIVAX HB pédiatrique MC" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7191000087105" />
+            <display value="Rota ROTARIX GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Rota ROTARIX GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Rota ROTARIX GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7201000087107" />
+            <display value="Rota RotaTeq MC" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Rota RotaTeq MC" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Rota RotaTeq MC" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="23011000087103" />
+            <display value="Zos SHINGRIX GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Zos SHINGRIX GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Zona SHINGRIX GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7671000087104" />
+            <display value="Pneu-C-10 SYNFLORIX GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Pneu-C-10 SYNFLORIX GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Pneu-C-10 SYNFLORIX GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7371000087109" />
+            <display value="Td ADSORBED SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Td ADSORBED SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Td ADSORBED SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7531000087102" />
+            <display value="Td-IPV Td Polio Adsorbed SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Td-IPV Td Polio Adsorbed SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="dT-VPI Td Polio adsorbées SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="23721000087109" />
+            <display value="DTaP-IPV TETRAVAC-ACELLULAIRE SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DTaP-IPV TETRAVAC-ACELLULAIRE SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DCaT-VPI TETRAVAC-ACELLULAIRE SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7421000087100" />
+            <display value="DTaP Tripacel Hybrid SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DTaP Tripacel Hybrid SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DCaT Tripacel Hybrid SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="28721000087103" />
+            <display value="DTaP TRIPACEL SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DTaP TRIPACEL SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DCaT TRIPACEL SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="23691000087103" />
+            <display value="DTwP-HB Tritanrix GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DTwP-HB Tritanrix GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="DCGET-HB Tritanrix GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="23031000087108" />
+            <display value="Men-B Trumenba Pfiz" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-B Trumenba Pfiz" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Men-B Trumenba Pfiz" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="6961000087102" />
+            <display value="HAHB Twinrix Junior GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HAHB Twinrix Junior GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HAHB Twinrix Junior GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="6971000087106" />
+            <display value="HAHB Twinrix GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HAHB Twinrix GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HAHB Twinrix GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7301000087104" />
+            <display value="Typh-I TYPHERIX GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Typh-I TYPHERIX GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Typh-I TYPHERIX GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7311000087102" />
+            <display value="Typh-I TYPHIM Vi SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Typh-I TYPHIM Vi SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Typh-I TYPHIM Vi SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="6891000087102" />
+            <display value="HA VAQTA pediatric MC" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HA VAQTA pediatric MC" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HA VAQTA pédiatrique MC" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="6901000087101" />
+            <display value="HA VAQTA MC" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HA VAQTA MC" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HA VAQTA MC" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7231000087104" />
+            <display value="Var VARILRIX GSK" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Var VARILRIX GSK" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Var VARILRIX GSK" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7241000087105" />
+            <display value="Var VARIVAX III MC" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Var VARIVAX III MC" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Var VARIVAX III MC" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7561000087109" />
+            <display value="Inf Vaxigrip SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf Vaxigrip SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf Vaxigrip SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7331000087107" />
+            <display value="HA-Typh-I ViVAXIM SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HA-Typh-I ViVAXIM SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="HA-Typh-I ViVAXIM SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7321000087105" />
+            <display value="Typh-O Vivotif CS" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Typh-O Vivotif CS" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Typh-O Vivotif CS" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="24211000087105" />
+            <display value="Typh-O Vivotif Pax" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Typh-O Vivotif Pax" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Typh-O Vivotif Pax" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="19291000087108" />
+            <display value="Inf Xanaflu API" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf Xanaflu API" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Inf Xanaflu API" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7221000087101" />
+            <display value="YF-VAX SP" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="YF-VAX SP" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="FJ YF-VAX SP" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="7411000087108" />
+            <display value="Zos ZOSTAVAX MC" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Zos ZOSTAVAX MC" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Zona ZOSTAVAX MC" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="19321000087101" />
+            <display value="Zos ZOSTAVAX II MC" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Zos ZOSTAVAX II MC" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Zona ZOSTAVAX II MC" />
+            </designation>
+        </contains>
+    </expansion>
+</ValueSet>

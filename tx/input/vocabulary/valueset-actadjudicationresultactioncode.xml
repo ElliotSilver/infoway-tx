@@ -1,0 +1,44 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="actadjudicationresultactioncode" />
+    <url value="https://fhir.infoway-inforoute.ca/ValueSet/actadjudicationresultactioncode" />
+    <identifier id="2.16.840.1.113883.2.20.3.290" />
+    <version value="20160311" />
+    <name value="ActAdjudicationResultActionCode" />
+    <status value="active" />
+    <description value="Description: Actions to be carried out by the recipient of the Adjudication Result information." />
+    <expansion>
+        <identifier value="urn:uuid:66b30eda-ca79-4cb4-8953-074b54879e93" />
+        <timestamp value="2021-08-22T00:35:14-04:00" />
+        <total value="2" />
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="DISPLAY" />
+            <display value="Display" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="The adjudication result associated is to be displayed to the receiver of the adjudication result." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="FORM" />
+            <display value="Print on Form" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="The adjudication result associated is to be printed on the specified form, which is then provided to the covered party." />
+            </designation>
+        </contains>
+    </expansion>
+</ValueSet>

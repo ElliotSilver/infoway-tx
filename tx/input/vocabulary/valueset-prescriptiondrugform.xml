@@ -1,0 +1,1910 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="prescriptiondrugform" />
+    <url value="https://fhir.infoway-inforoute.ca/ValueSet/prescriptiondrugform" />
+    <identifier id="2.16.840.1.113883.2.20.3.398" />
+    <version value="20200331" />
+    <name value="PrescriptionDrugForm" />
+    <status value="active" />
+    <description value="The form in which a compounded drug or active ingredient can be dispensed to the patient" />
+    <expansion>
+        <identifier value="urn:uuid:378c8db8-7aac-4f46-b146-5bc201aa1c33" />
+        <timestamp value="2021-08-19T01:53:54-04:00" />
+        <total value="79" />
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="22141000087108" />
+            <display value="Lollipop" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Lollipop" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="sucette" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="22161000087109" />
+            <display value="Gummy" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Gummy" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="bonbon gélifié" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="22171000087100" />
+            <display value="Rectal rocket" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Rectal rocket" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="suppositoire rectal en forme de fusée" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="https://fhir.infoway-inforoute.ca/CodeSystem/snomedctcaextension" />
+            <abstract value="false" />
+            <code value="385041009" />
+            <display value="Oral powder" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Oral powder" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="poudre orale" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="AER" />
+            <display value="Aerosol" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Aerosol" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="aérosol" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="BAR" />
+            <display value="Bar" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Bar" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="barre" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="BEAD" />
+            <display value="Beads" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Beads" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="billes" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="BUCTAB" />
+            <display value="Buccal tablet" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Buccal tablet" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="comprimé buccal" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="CAP" />
+            <display value="Capsule" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Capsule" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="capsule" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="CAPLET" />
+            <display value="Caplet" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Caplet" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="caplet" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="CHEWTAB" />
+            <display value="Chewable tablet" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Chewable tablet" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="comprimé à croquer" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="CRM" />
+            <display value="Cream" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Cream" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="crème" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="CRYS" />
+            <display value="Crystals" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Crystals" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="cristaux" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="DERMSPRY" />
+            <display value="Dermal spray" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Dermal spray" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="vaporisateur cutané" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="DISINTAB" />
+            <display value="Disintegrating tablet" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Disintegrating tablet" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="comprimé à dissolution orale" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="DISK" />
+            <display value="Disk" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Disk" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="disque" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="DROP" />
+            <display value="Drops" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Drops" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="gouttes" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="DRTAB" />
+            <display value="Delayed release tablet" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Delayed release tablet" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="comprimé à libération retardée" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="ECTAB" />
+            <display value="Enteric coated tablet" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Enteric coated tablet" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="comprimé gastrorésistant" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="ELIXIR" />
+            <display value="Elixir" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Elixir" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="élixir" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="ENEMA" />
+            <display value="Enema" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Enema" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="lavement" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="ENTCAP" />
+            <display value="Enteric coated capsule" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Enteric coated capsule" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="capsule gastrorésistante" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="ERCAP" />
+            <display value="Extended release capsule" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Extended release capsule" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="capsule à libération prolongée" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="ERTAB" />
+            <display value="Extended release tablet" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Extended release tablet" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="comprimé à libération prolongée" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="FLAKE" />
+            <display value="Flakes" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Flakes" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="flocons" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="FOAM" />
+            <display value="Foam" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Foam" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="mousse" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="FOAMAPL" />
+            <display value="Foam with Applicator" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Foam with Applicator" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="mousse avec applicateur" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="GEL" />
+            <display value="Gel" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Gel" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="gel" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="GELAPL" />
+            <display value="Gel with Applicator" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Gel with Applicator" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="gel avec applicateur" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="GRAN" />
+            <display value="Granules" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Granules" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="granules" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="IRSOL" />
+            <display value="Irrigation Solution" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Irrigation Solution" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="solution pour irrigation" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="LTN" />
+            <display value="Lotion" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Lotion" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="lotion" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="MDINHL" />
+            <display value="Metered dose inhaler" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Metered dose inhaler" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="aérosol-doseur" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="MDINHLPWD" />
+            <display value="Metered dose powder inhaler" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Metered dose powder inhaler" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="inhalateur de poudre sèche" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="MEDPAD" />
+            <display value="Medicated pad" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Medicated pad" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="tampon médicamenteux" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="NASSPRY" />
+            <display value="Nasal Spray" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Nasal Spray" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="vaporisateur nasal" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="OIL" />
+            <display value="Oil" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Oil" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="huile" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="OINT" />
+            <display value="Ointment" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Ointment" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="pommade" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="OINTAPL" />
+            <display value="Ointment with applicator" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Ointment with applicator" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="pommade avec applicateur" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="OPCRM" />
+            <display value="Ophthalmic cream" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Ophthalmic cream" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="crème ophtalmique" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="OPDROP" />
+            <display value="Ophthalmic drops" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Ophthalmic drops" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="gouttes ophtalmiques" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="OPGEL" />
+            <display value="Ophthalmic gel" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Ophthalmic gel" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="gel ophtalmique" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="OPOINT" />
+            <display value="Ophthalmic ointment" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Ophthalmic ointment" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="pommade ophtalmique" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="ORALSOL" />
+            <display value="Oral solution" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Oral solution" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="solution orale" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="ORSUSP" />
+            <display value="Oral suspension" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Oral suspension" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="suspension orale" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="ORTROCHE" />
+            <display value="Lozenge/Oral Troche" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Lozenge/Oral Troche" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="pastille" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="OTCRM" />
+            <display value="Otic cream" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Otic cream" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="crème otique" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="OTDROP" />
+            <display value="Otic drops" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Otic drops" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="gouttes otiques" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="OTGEL" />
+            <display value="Otic gel" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Otic gel" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="gel otique" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="OTOINT" />
+            <display value="Otic ointment" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Otic ointment" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="pommade otique" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="PAD" />
+            <display value="Pad" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Pad" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="tampon imprégné" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="PASTE" />
+            <display value="Paste" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Paste" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="pâte" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="PATCH" />
+            <display value="Patch" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Patch" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="timbre" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="PELLET" />
+            <display value="Pellet" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Pellet" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="granule" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="POWD" />
+            <display value="Powder" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Powder" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="poudre" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="PUD" />
+            <display value="Pudding" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Pudding" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="pouding" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="RECCRM" />
+            <display value="Rectal cream" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Rectal cream" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="crème rectale" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="RECFORM" />
+            <display value="Rectal foam" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Rectal foam" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="mousse rectale" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="RECOINT" />
+            <display value="Rectal ointment" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Rectal ointment" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="pommade rectale" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="RECSOL" />
+            <display value="Rectal solution" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Rectal solution" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="solution rectale" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="RECSUPP" />
+            <display value="Rectal suppository" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Rectal suppository" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="suppositoire rectal" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="RINSE" />
+            <display value="Mouthwash/Rinse" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Mouthwash/Rinse" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="rince-bouche" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="SHMP" />
+            <display value="Shampoo" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Shampoo" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="shampoing" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="SLTAB" />
+            <display value="Sublingual tablet" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Sublingual tablet" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="comprimé sublingual" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="SOL" />
+            <display value="Solution" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Solution" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="solution" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="SPRY" />
+            <display value="Sprays" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Sprays" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="vaporisations" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="SPRYADAPT" />
+            <display value="Spray with adaptor" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Spray with adaptor" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="vaporisateur avec adaptateur" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="SUPP" />
+            <display value="Suppository" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Suppository" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="suppositoire" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="SUSP" />
+            <display value="Suspension" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Suspension" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="suspension" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="SWAB" />
+            <display value="Swab" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Swab" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="écouvillon" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="SYRUP" />
+            <display value="Syrup" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Syrup" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="sirop" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="TAB" />
+            <display value="Tablet" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Tablet" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="comprimé" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="TINC" />
+            <display value="Tincture" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Tincture" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="teinture" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="TOPPWD" />
+            <display value="Topical Powder" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Topical Powder" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="poudre cutanée" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="TPATCH" />
+            <display value="Transdermal patch" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Transdermal patch" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="timbre transdermique" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="VAGCRM" />
+            <display value="Vaginal cream" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Vaginal cream" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="crème vaginale" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="VAGSUPP" />
+            <display value="Vaginal suppository" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Vaginal suppository" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="suppositoire vaginal" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="VAGTAB" />
+            <display value="Vaginal tablet" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Vaginal tablet" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="comprimé vaginal" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <abstract value="false" />
+            <code value="WAFER" />
+            <display value="Wafer" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Wafer" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="cachet" />
+            </designation>
+        </contains>
+    </expansion>
+</ValueSet>

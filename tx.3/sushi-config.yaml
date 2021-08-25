@@ -1,0 +1,26 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/docs/sushi/configuration/                    │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: ca.infoway.tx.3
+canonical: https://fhir.infoway-inforoute.ca
+name: Canada Health Infoway Terminology
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2021+
+releaseLabel: ci-build
+#license: 
+title: "Terminology distributed by Canada Health Infoway (part 3)"
+description: This Implementation Guide contains some of the CodeSystems and ValueSets distributed by Canada Health Infoway on their Terminology Gateway.
+
+publisher:
+  name: Canada Health Infoway
+  url: http://infoway-inforoute.ca
+  
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  Artifacts: artifacts.html

@@ -1,0 +1,89 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="actantigeninvalidreason" />
+    <url value="https://fhir.infoway-inforoute.ca/ValueSet/actantigeninvalidreason" />
+    <identifier id="2.16.840.1.113883.2.20.3.158" />
+    <version value="20200331" />
+    <name value="ActAntigenInvalidReason" />
+    <status value="active" />
+    <description value="Describe why an antigen is considered to be invalid for use." />
+    <expansion>
+        <identifier value="urn:uuid:e334d896-6f9a-4d8a-a688-ef43e98cc9a3" />
+        <timestamp value="2021-08-22T00:35:24-04:00" />
+        <total value="5" />
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActReason" />
+            <abstract value="false" />
+            <code value="ADVSTORAGE" />
+            <display value="adverse storage condition" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Storage conditions caused the substance to be ineffective." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActReason" />
+            <abstract value="false" />
+            <code value="COLDCHNBRK" />
+            <display value="cold chain break" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Cold chain was not maintained for the substance." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActReason" />
+            <abstract value="false" />
+            <code value="EXPLOT" />
+            <display value="expired lot" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="The lot from which the substance was drawn was expired." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActReason" />
+            <abstract value="false" />
+            <code value="OUTSIDESCHED" />
+            <display value="administered outside recommended schedule or practice" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="The substance was administered outside of the recommended schedule or practice." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActReason" />
+            <abstract value="false" />
+            <code value="PRODRECALL" />
+            <display value="product recall" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="The substance was recalled by the manufacturer." />
+            </designation>
+        </contains>
+    </expansion>
+</ValueSet>

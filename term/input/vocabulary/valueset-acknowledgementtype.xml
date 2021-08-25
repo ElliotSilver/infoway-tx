@@ -1,0 +1,104 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="acknowledgementtype" />
+    <url value="https://fhir.infoway-inforoute.ca/ValueSet/acknowledgementtype" />
+    <identifier id="2.16.840.1.113883.2.20.3.288" />
+    <version value="20160311" />
+    <name value="AcknowledgementType" />
+    <status value="active" />
+    <description value="Acknowledgement code as described in HL7 message processing rules." />
+    <expansion>
+        <identifier value="urn:uuid:cbbb4d9b-45e8-47ad-8ebe-06e24019a0e4" />
+        <timestamp value="2021-08-22T00:34:18-04:00" />
+        <total value="6" />
+        <contains>
+            <system value="http://hl7.org/fhir/v3/AcknowledgementType" />
+            <abstract value="false" />
+            <code value="AA" />
+            <display value="Application Acknowledgement Accept" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Receiving application successfully processed message." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/AcknowledgementType" />
+            <abstract value="false" />
+            <code value="AE" />
+            <display value="Application Acknowledgement Error" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Receiving application found error in processing message. Sending error response with additional error detail information." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/AcknowledgementType" />
+            <abstract value="false" />
+            <code value="AR" />
+            <display value="Application Acknowledgement Reject" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Receiving application failed to process message for reason unrelated to content or format. Original message sender must decide on whether to automatically send message again." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/AcknowledgementType" />
+            <abstract value="false" />
+            <code value="CA" />
+            <display value="Accept Acknowledgement Commit Accept" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Receiving message handling service accepts responsibility for passing message onto receiving application." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/AcknowledgementType" />
+            <abstract value="false" />
+            <code value="CE" />
+            <display value="Accept Acknowledgement Commit Error" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Receiving message handling service cannot accept message for any other reason (e.g. message sequence number, etc.)." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/AcknowledgementType" />
+            <abstract value="false" />
+            <code value="CR" />
+            <display value="Accept Acknowledgement Commit Reject" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Receiving message handling service rejects message if interaction identifier, version or processing mode is incompatible with known receiving application role information." />
+            </designation>
+        </contains>
+    </expansion>
+</ValueSet>

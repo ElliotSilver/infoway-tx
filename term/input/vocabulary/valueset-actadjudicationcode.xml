@@ -1,0 +1,74 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="actadjudicationcode" />
+    <url value="https://fhir.infoway-inforoute.ca/ValueSet/actadjudicationcode" />
+    <identifier id="2.16.840.1.113883.2.20.3.291" />
+    <version value="20160311" />
+    <name value="ActAdjudicationCode" />
+    <status value="active" />
+    <description value="Description: Types of responses that will occur as a result of the adjudication of an electronic invoice at a summary level and provides guidance on interpretation of the referenced adjudication results. Examples: adjudicated with adjustments adjudicated as refused adjudicated as submitted" />
+    <expansion>
+        <identifier value="urn:uuid:d8a5ebcb-9904-457a-ba0b-459d9e82576a" />
+        <timestamp value="2021-08-22T00:34:51-04:00" />
+        <total value="3" />
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="AA" />
+            <display value="adjudicated with adjustments" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="The invoice element has been accepted for payment but one or more adjustment(s) have been made to one or more invoice element line items (component charges). Also includes the concept 'Adjudicate as zero' and items not covered under a particular Policy. Invoice element can be reversed (nullified). Recommend that the invoice element is saved for DUR (Drug Utilization Reporting)." />
+            </designation>
+            <contains>
+                <system value="2.16.840.1.113883.5.4" />
+                <abstract value="false" />
+                <code value="ANF" />
+                <display value="adjudicated with adjustments and no financial impact" />
+                <designation>
+                    <language value="en" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000550004" />
+                        <display value="Definition" />
+                    </use>
+                    <value value="The invoice element has been accepted for payment but one or more adjustment(s) have been made to one or more invoice element line items (component charges) without changing the amount. Invoice element can be reversed (nullified). Recommend that the invoice element is saved for DUR (Drug Utilization Reporting)." />
+                </designation>
+            </contains>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="AR" />
+            <display value="adjudicated as refused" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="The invoice element has passed through the adjudication process but payment is refused due to one or more reasons. Includes items such as patient not covered, or invoice element is not constructed according to payer rules (e.g. 'invoice submitted too late'). If one invoice element line item in the invoice element structure is rejected, the remaining line items may not be adjudicated and the complete group is treated as rejected. A refused invoice element can be forwarded to the next payer (for Coordination of Benefits) or modified and resubmitted to refusing payer. Invoice element cannot be reversed (nullified) as there is nothing to reverse. Recommend that the invoice element is not saved for DUR (Drug Utilization Reporting)." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="AS" />
+            <display value="adjudicated as submitted" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="The invoice element was/will be paid exactly as submitted, without financial adjustment(s). If the dollar amount stays the same, but the billing codes have been amended or financial adjustments have been applied through the adjudication process, the invoice element is treated as &quot;Adjudicated with Adjustment&quot;. If information items are included in the adjudication results that do not affect the monetary amounts paid, then this is still Adjudicated as Submitted (e.g. 'reached Plan Maximum on this Claim'). Invoice element can be reversed (nullified). Recommend that the invoice element is saved for DUR (Drug Utilization Reporting)." />
+            </designation>
+        </contains>
+    </expansion>
+</ValueSet>

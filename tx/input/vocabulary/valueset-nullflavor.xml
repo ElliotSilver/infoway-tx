@@ -1,0 +1,500 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="nullflavor" />
+    <url value="https://fhir.infoway-inforoute.ca/ValueSet/nullflavor" />
+    <identifier id="2.16.840.1.113883.2.20.3.330" />
+    <version value="20190813" />
+    <name value="NullFlavor" />
+    <status value="active" />
+    <description value="Indication or reason why a valid value is not present." />
+    <expansion>
+        <identifier value="urn:uuid:72f4a3d8-f5b8-4740-914a-3c986d36b4b5" />
+        <timestamp value="2021-08-19T01:22:30-04:00" />
+        <total value="1" />
+        <contains>
+            <system value="http://hl7.org/fhir/v3/NullFlavor" />
+            <abstract value="false" />
+            <code value="NI" />
+            <display value="NoInformation" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="The value is exceptional (missing, omitted, incomplete, improper). No information as to the reason for being an exceptional value is provided. This is the most general exceptional value. It is also the default exceptional value." />
+            </designation>
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="NoInformation" />
+            </designation>
+            <contains>
+                <system value="2.16.840.1.113883.5.1008" />
+                <abstract value="false" />
+                <code value="INV" />
+                <display value="Invalid" />
+                <designation>
+                    <language value="en" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000550004" />
+                        <display value="Definition" />
+                    </use>
+                    <value value="The value as represented in the instance is not a member of the set of permitted data values in the constrained value domain of a variable." />
+                </designation>
+                <designation>
+                    <language value="en" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000013009" />
+                        <display value="Synonym" />
+                    </use>
+                    <value value="Invalid" />
+                </designation>
+                <designation>
+                    <language value="fr" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000013009" />
+                        <display value="Synonym" />
+                    </use>
+                    <value value="Non valide" />
+                </designation>
+                <contains>
+                    <system value="2.16.840.1.113883.5.1008" />
+                    <abstract value="false" />
+                    <code value="DER" />
+                    <display value="Derived" />
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000550004" />
+                            <display value="Definition" />
+                        </use>
+                        <value value="An actual value may exist, but it must be derived from the provided information (usually an EXPR generic data type extension will be used to convey the derivation expressionexpression ." />
+                    </designation>
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000013009" />
+                            <display value="Synonym" />
+                        </use>
+                        <value value="Derived" />
+                    </designation>
+                    <designation>
+                        <language value="fr" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000013009" />
+                            <display value="Synonym" />
+                        </use>
+                        <value value="Dérivée" />
+                    </designation>
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.1008" />
+                    <abstract value="false" />
+                    <code value="OTH" />
+                    <display value="Other" />
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000550004" />
+                            <display value="Definition" />
+                        </use>
+                        <value value="The actual value is not a member of the set of permitted data values in the constrained value domain of a variable. (e.g., concept not provided by required code system)." />
+                    </designation>
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000013009" />
+                            <display value="Synonym" />
+                        </use>
+                        <value value="Other" />
+                    </designation>
+                    <designation>
+                        <language value="fr" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000013009" />
+                            <display value="Synonym" />
+                        </use>
+                        <value value="Autre" />
+                    </designation>
+                    <contains>
+                        <system value="2.16.840.1.113883.5.1008" />
+                        <abstract value="false" />
+                        <code value="NINF" />
+                        <display value="Negative infinity" />
+                        <designation>
+                            <language value="en" />
+                            <use>
+                                <system value="http://snomed.info/sct" />
+                                <code value="900000000000550004" />
+                                <display value="Definition" />
+                            </use>
+                            <value value="Negative infinity of numbers." />
+                        </designation>
+                        <designation>
+                            <language value="en" />
+                            <use>
+                                <system value="http://snomed.info/sct" />
+                                <code value="900000000000013009" />
+                                <display value="Synonym" />
+                            </use>
+                            <value value="Negative infinity" />
+                        </designation>
+                        <designation>
+                            <language value="fr" />
+                            <use>
+                                <system value="http://snomed.info/sct" />
+                                <code value="900000000000013009" />
+                                <display value="Synonym" />
+                            </use>
+                            <value value="Infini négatif" />
+                        </designation>
+                    </contains>
+                    <contains>
+                        <system value="2.16.840.1.113883.5.1008" />
+                        <abstract value="false" />
+                        <code value="PINF" />
+                        <display value="Positive infinity" />
+                        <designation>
+                            <language value="en" />
+                            <use>
+                                <system value="http://snomed.info/sct" />
+                                <code value="900000000000550004" />
+                                <display value="Definition" />
+                            </use>
+                            <value value="Positive infinity of numbers." />
+                        </designation>
+                        <designation>
+                            <language value="en" />
+                            <use>
+                                <system value="http://snomed.info/sct" />
+                                <code value="900000000000013009" />
+                                <display value="Synonym" />
+                            </use>
+                            <value value="Positive infinity" />
+                        </designation>
+                        <designation>
+                            <language value="fr" />
+                            <use>
+                                <system value="http://snomed.info/sct" />
+                                <code value="900000000000013009" />
+                                <display value="Synonym" />
+                            </use>
+                            <value value="Infini positif" />
+                        </designation>
+                    </contains>
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.1008" />
+                    <abstract value="false" />
+                    <code value="UNC" />
+                    <display value="Unencoded" />
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000550004" />
+                            <display value="Definition" />
+                        </use>
+                        <value value="The actual value has not yet been encoded within the approved value domain." />
+                    </designation>
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000013009" />
+                            <display value="Synonym" />
+                        </use>
+                        <value value="Unencoded" />
+                    </designation>
+                    <designation>
+                        <language value="fr" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000013009" />
+                            <display value="Synonym" />
+                        </use>
+                        <value value="Non codifiée" />
+                    </designation>
+                </contains>
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.1008" />
+                <abstract value="false" />
+                <code value="MSK" />
+                <display value="Masked" />
+                <designation>
+                    <language value="en" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000550004" />
+                        <display value="Definition" />
+                    </use>
+                    <value value="There is information on this item available but it has not been provided by the sender due to security, privacy or other reasons. There may be an alternate mechanism for gaining access to this information." />
+                </designation>
+                <designation>
+                    <language value="en" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000013009" />
+                        <display value="Synonym" />
+                    </use>
+                    <value value="Masked" />
+                </designation>
+                <designation>
+                    <language value="fr" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000013009" />
+                        <display value="Synonym" />
+                    </use>
+                    <value value="Masquée" />
+                </designation>
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.1008" />
+                <abstract value="false" />
+                <code value="NA" />
+                <display value="Not applicable" />
+                <designation>
+                    <language value="en" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000550004" />
+                        <display value="Definition" />
+                    </use>
+                    <value value="Known to have no proper value (e.g., last menstrual period for a male)." />
+                </designation>
+                <designation>
+                    <language value="en" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000013009" />
+                        <display value="Synonym" />
+                    </use>
+                    <value value="Not applicable" />
+                </designation>
+                <designation>
+                    <language value="fr" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000013009" />
+                        <display value="Synonym" />
+                    </use>
+                    <value value="Sans objet" />
+                </designation>
+            </contains>
+            <contains>
+                <system value="2.16.840.1.113883.5.1008" />
+                <abstract value="false" />
+                <code value="UNK" />
+                <display value="Unknown" />
+                <designation>
+                    <language value="en" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000550004" />
+                        <display value="Definition" />
+                    </use>
+                    <value value="A proper value is applicable, but not known." />
+                </designation>
+                <designation>
+                    <language value="en" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000013009" />
+                        <display value="Synonym" />
+                    </use>
+                    <value value="Unknown" />
+                </designation>
+                <designation>
+                    <language value="fr" />
+                    <use>
+                        <system value="http://snomed.info/sct" />
+                        <code value="900000000000013009" />
+                        <display value="Synonym" />
+                    </use>
+                    <value value="Inconnue" />
+                </designation>
+                <contains>
+                    <system value="2.16.840.1.113883.5.1008" />
+                    <abstract value="false" />
+                    <code value="ASKU" />
+                    <display value="Asked, but unknown" />
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000550004" />
+                            <display value="Definition" />
+                        </use>
+                        <value value="Information was sought but not found (e.g., patient was asked but didn't know)" />
+                    </designation>
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000013009" />
+                            <display value="Synonym" />
+                        </use>
+                        <value value="Asked, but unknown" />
+                    </designation>
+                    <designation>
+                        <language value="fr" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000013009" />
+                            <display value="Synonym" />
+                        </use>
+                        <value value="Question posée, réponse inconnue" />
+                    </designation>
+                    <contains>
+                        <system value="2.16.840.1.113883.5.1008" />
+                        <abstract value="false" />
+                        <code value="NAV" />
+                        <display value="Temporarily unavailable" />
+                        <designation>
+                            <language value="en" />
+                            <use>
+                                <system value="http://snomed.info/sct" />
+                                <code value="900000000000550004" />
+                                <display value="Definition" />
+                            </use>
+                            <value value="Information is not available at this time but it is expected that it will be available later." />
+                        </designation>
+                        <designation>
+                            <language value="en" />
+                            <use>
+                                <system value="http://snomed.info/sct" />
+                                <code value="900000000000013009" />
+                                <display value="Synonym" />
+                            </use>
+                            <value value="Temporarily unavailable" />
+                        </designation>
+                        <designation>
+                            <language value="fr" />
+                            <use>
+                                <system value="http://snomed.info/sct" />
+                                <code value="900000000000013009" />
+                                <display value="Synonym" />
+                            </use>
+                            <value value="Temporairement non accessible" />
+                        </designation>
+                    </contains>
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.1008" />
+                    <abstract value="false" />
+                    <code value="NASK" />
+                    <display value="Not asked" />
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000550004" />
+                            <display value="Definition" />
+                        </use>
+                        <value value="Information was sought but not found (e.g., patient was asked but didn't know)" />
+                    </designation>
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000013009" />
+                            <display value="Synonym" />
+                        </use>
+                        <value value="Not asked" />
+                    </designation>
+                    <designation>
+                        <language value="fr" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000013009" />
+                            <display value="Synonym" />
+                        </use>
+                        <value value="Question non posée" />
+                    </designation>
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.1008" />
+                    <abstract value="false" />
+                    <code value="QS" />
+                    <display value="Sufficient quantity" />
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000550004" />
+                            <display value="Definition" />
+                        </use>
+                        <value value="The specific quantity is not known, but is known to be non-zero and is not specified because it makes up the bulk of the material. e.g. 'Add 10mg of ingredient X, 50mg of ingredient Y, and sufficient quantity of water to 100mL.' The null flavor would be used to express the quantity of water." />
+                    </designation>
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000013009" />
+                            <display value="Synonym" />
+                        </use>
+                        <value value="Sufficient quantity" />
+                    </designation>
+                    <designation>
+                        <language value="fr" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000013009" />
+                            <display value="Synonym" />
+                        </use>
+                        <value value="Quantité suffisante" />
+                    </designation>
+                </contains>
+                <contains>
+                    <system value="2.16.840.1.113883.5.1008" />
+                    <abstract value="false" />
+                    <code value="TRC" />
+                    <display value="Trace" />
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000550004" />
+                            <display value="Definition" />
+                        </use>
+                        <value value="The content is greater than zero, but too small to be quantified." />
+                    </designation>
+                    <designation>
+                        <language value="en" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000013009" />
+                            <display value="Synonym" />
+                        </use>
+                        <value value="Trace" />
+                    </designation>
+                    <designation>
+                        <language value="fr" />
+                        <use>
+                            <system value="http://snomed.info/sct" />
+                            <code value="900000000000013009" />
+                            <display value="Synonym" />
+                        </use>
+                        <value value="Trace" />
+                    </designation>
+                </contains>
+            </contains>
+        </contains>
+    </expansion>
+</ValueSet>

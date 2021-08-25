@@ -1,0 +1,59 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="acknowledgementcondition" />
+    <url value="https://fhir.infoway-inforoute.ca/ValueSet/acknowledgementcondition" />
+    <identifier id="2.16.840.1.113883.2.20.3.286" />
+    <version value="20160311" />
+    <name value="AcknowledgementCondition" />
+    <status value="active" />
+    <description value="Acknowledgement Condition codes describe the conditions under which accept or application level acknowledgements are required to be returned in response to the message send operation." />
+    <expansion>
+        <identifier value="urn:uuid:b58c9ee4-4f37-417a-939b-c8075d9ed259" />
+        <timestamp value="2021-08-20T13:20:30-04:00" />
+        <total value="3" />
+        <contains>
+            <system value="http://hl7.org/fhir/v3/AcknowledgementCondition" />
+            <abstract value="false" />
+            <code value="AL" />
+            <display value="Always" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Always send an acknowledgement." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/AcknowledgementCondition" />
+            <abstract value="false" />
+            <code value="ER" />
+            <display value="Error/reject only" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Send an acknowledgement for error/reject conditions only." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/AcknowledgementCondition" />
+            <abstract value="false" />
+            <code value="NE" />
+            <display value="Never" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="Never send an acknowledgement." />
+            </designation>
+        </contains>
+    </expansion>
+</ValueSet>

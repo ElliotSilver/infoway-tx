@@ -1,0 +1,119 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="actbillingarrangementcode" />
+    <url value="https://fhir.infoway-inforoute.ca/ValueSet/actbillingarrangementcode" />
+    <identifier id="2.16.840.1.113883.2.20.3.292" />
+    <version value="20160311" />
+    <name value="ActBillingArrangementCode" />
+    <status value="active" />
+    <description value="Description: Types of provision(s) made for reimbursing for the deliver of healthcare services and/or goods provided by a Provider for one or more occurrence or over a specified period. Examples: Contract Rostering Capitation" />
+    <expansion>
+        <identifier value="urn:uuid:d98584e7-82fc-446a-b120-121c50199d11" />
+        <timestamp value="2021-08-22T00:35:33-04:00" />
+        <total value="7" />
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="BLK" />
+            <display value="block funding" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A billing arrangement where a Provider charges a lump sum to provide a prescribed group (volume) of services to a single patient which occur over a period of time. Services included in the block may vary. This billing arrangement is also known as Program of Care for some specific Payors and Program Fees for other Payors." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="CAP" />
+            <display value="capitation funding" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A billing arrangement where the payment made to a Provider is determined by analyzing one or more demographic attributes about the persons/patients who are enrolled with the Provider (in their practice)." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="CONTF" />
+            <display value="contract funding" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A billing arrangement where a Provider charges a lump sum to provide a particular volume of one or more interventions/procedures or groups of interventions/procedures." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="FFS" />
+            <display value="fee for service" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A billing arrangement where a Provider charges a separate fee for each intervention/procedure/event or product. Fee for Service is used when an individual intervention/procedure/event is used for billing purposes. In other words, fees are associated with the intervention/procedure/event. For example, a specific CCI (Canadian Classification of Interventions) code has an associated fee and is used for billing purposes." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="FINBILL" />
+            <display value="financial" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A billing arrangement where a Provider charges for non-clinical items. This includes interest in arrears, mileage, etc. Clinical content is not included in Invoices submitted with this type of billing arrangement." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="ROST" />
+            <display value="roster funding" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A billing arrangement where funding is based on a list of individuals registered as patients of the Provider." />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <abstract value="false" />
+            <code value="SESS" />
+            <display value="sessional funding" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000550004" />
+                    <display value="Definition" />
+                </use>
+                <value value="A billing arrangement where a Provider charges a sum to provide a group (volume) of interventions/procedures to one or more patients within a defined period of time, typically on the same date. Interventions/procedures included in the session may vary." />
+            </designation>
+        </contains>
+    </expansion>
+</ValueSet>

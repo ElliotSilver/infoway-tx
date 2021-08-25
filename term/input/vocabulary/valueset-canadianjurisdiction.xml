@@ -1,0 +1,326 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+    <id value="canadianjurisdiction" />
+    <url value="https://fhir.infoway-inforoute.ca/ValueSet/canadianjurisdiction" />
+    <identifier id="2.16.840.1.113883.2.20.3.438" />
+    <version value="20170626" />
+    <name value="CanadianJurisdiction" />
+    <status value="active" />
+    <description value="Codes to identify the provinces and territories of Canada" />
+    <expansion>
+        <identifier value="urn:uuid:7e613f53-ce95-4736-aec9-480844aad40f" />
+        <timestamp value="2021-08-22T00:37:54-04:00" />
+        <total value="13" />
+        <contains>
+            <system value="http://canadapost.ca/CodeSystem/ProvinceCodes" />
+            <abstract value="false" />
+            <code value="AB" />
+            <display value="Alberta" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Alberta" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Alberta" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://canadapost.ca/CodeSystem/ProvinceCodes" />
+            <abstract value="false" />
+            <code value="BC" />
+            <display value="British Columbia" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="British Columbia" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Colombie-Britannique" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://canadapost.ca/CodeSystem/ProvinceCodes" />
+            <abstract value="false" />
+            <code value="MB" />
+            <display value="Manitoba" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Manitoba" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Manitoba" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://canadapost.ca/CodeSystem/ProvinceCodes" />
+            <abstract value="false" />
+            <code value="NB" />
+            <display value="New Brunswick" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="New Brunswick" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Nouveau-Brunswick" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://canadapost.ca/CodeSystem/ProvinceCodes" />
+            <abstract value="false" />
+            <code value="NL" />
+            <display value="Newfoundland and Labrador" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Newfoundland and Labrador" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Terre-Neuve-et-Labrador" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://canadapost.ca/CodeSystem/ProvinceCodes" />
+            <abstract value="false" />
+            <code value="NS" />
+            <display value="Nova Scotia" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Nova Scotia" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Nouvelle-Écosse" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://canadapost.ca/CodeSystem/ProvinceCodes" />
+            <abstract value="false" />
+            <code value="NT" />
+            <display value="Northwest Territories" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Northwest Territories" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Territoires du Nord-Ouest" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://canadapost.ca/CodeSystem/ProvinceCodes" />
+            <abstract value="false" />
+            <code value="NU" />
+            <display value="Nunavut" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Nunavut" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Nunavut" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://canadapost.ca/CodeSystem/ProvinceCodes" />
+            <abstract value="false" />
+            <code value="ON" />
+            <display value="Ontario" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Ontario" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Ontario" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://canadapost.ca/CodeSystem/ProvinceCodes" />
+            <abstract value="false" />
+            <code value="PE" />
+            <display value="Prince Edward Island" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Prince Edward Island" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Île-du-Prince-Édouard" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://canadapost.ca/CodeSystem/ProvinceCodes" />
+            <abstract value="false" />
+            <code value="QC" />
+            <display value="Quebec" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Quebec" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Québec" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://canadapost.ca/CodeSystem/ProvinceCodes" />
+            <abstract value="false" />
+            <code value="SK" />
+            <display value="Saskatchewan" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Saskatchewan" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Saskatchewan" />
+            </designation>
+        </contains>
+        <contains>
+            <system value="http://canadapost.ca/CodeSystem/ProvinceCodes" />
+            <abstract value="false" />
+            <code value="YT" />
+            <display value="Yukon" />
+            <designation>
+                <language value="en" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Yukon" />
+            </designation>
+            <designation>
+                <language value="fr" />
+                <use>
+                    <system value="http://snomed.info/sct" />
+                    <code value="900000000000013009" />
+                    <display value="Synonym" />
+                </use>
+                <value value="Yukon" />
+            </designation>
+        </contains>
+    </expansion>
+</ValueSet>

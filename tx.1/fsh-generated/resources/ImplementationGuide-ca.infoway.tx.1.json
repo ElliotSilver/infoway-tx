@@ -1,0 +1,60 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "ca.infoway.tx.1",
+  "url": "https://fhir.infoway-inforoute.ca/ImplementationGuide/ca.infoway.tx.1",
+  "version": "0.1.0",
+  "name": "CanadaHealthInfowayTerminology",
+  "title": "Terminology distributed by Canada Health Infoway (part 1)",
+  "status": "draft",
+  "publisher": "Canada Health Infoway",
+  "contact": [
+    {
+      "name": "Canada Health Infoway",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://infoway-inforoute.ca"
+        }
+      ]
+    }
+  ],
+  "description": "This Implementation Guide contains some of the CodeSystems and ValueSets distributed by Canada Health Infoway on their Terminology Gateway.",
+  "packageId": "ca.infoway.tx.1",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "ValueSet/healthconcerncode"
+        },
+        "description": "Represents the Client's relevant clinical problems, conditions, diagnoses, symptoms, findings and complaints, as interpreted by the provider.",
+        "exampleBoolean": false,
+        "name": "HealthConcernCode"
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2021+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}
