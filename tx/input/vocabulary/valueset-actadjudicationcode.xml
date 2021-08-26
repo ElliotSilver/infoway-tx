@@ -11,7 +11,7 @@
         <timestamp value="2021-08-22T00:34:51-04:00" />
         <total value="3" />
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="AA" />
             <display value="adjudicated with adjustments" />
@@ -41,7 +41,7 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="AR" />
             <display value="adjudicated as refused" />
@@ -56,7 +56,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="AS" />
             <display value="adjudicated as submitted" />

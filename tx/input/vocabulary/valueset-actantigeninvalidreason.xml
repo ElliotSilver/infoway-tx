@@ -11,7 +11,7 @@
         <timestamp value="2021-08-22T00:35:24-04:00" />
         <total value="5" />
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActReason" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason" />
             <abstract value="false" />
             <code value="ADVSTORAGE" />
             <display value="adverse storage condition" />
@@ -26,7 +26,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActReason" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason" />
             <abstract value="false" />
             <code value="COLDCHNBRK" />
             <display value="cold chain break" />
@@ -41,7 +41,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActReason" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason" />
             <abstract value="false" />
             <code value="EXPLOT" />
             <display value="expired lot" />
@@ -56,7 +56,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActReason" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason" />
             <abstract value="false" />
             <code value="OUTSIDESCHED" />
             <display value="administered outside recommended schedule or practice" />
@@ -71,7 +71,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActReason" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActReason" />
             <abstract value="false" />
             <code value="PRODRECALL" />
             <display value="product recall" />

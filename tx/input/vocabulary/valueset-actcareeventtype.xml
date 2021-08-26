@@ -11,7 +11,7 @@
         <timestamp value="2021-08-22T00:35:48-04:00" />
         <total value="23" />
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="ALC" />
             <display value="Alternative Level of Care" />
@@ -26,7 +26,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="CARD" />
             <display value="Cardiology" />
@@ -41,7 +41,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="CHR" />
             <display value="Chronic" />
@@ -56,7 +56,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="DNTL" />
             <display value="Dental" />
@@ -71,7 +71,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="DRGRHB" />
             <display value="Drug Rehab" />
@@ -86,7 +86,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="GENRL" />
             <display value="General" />
@@ -101,7 +101,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="MED" />
             <display value="Medical" />
@@ -116,7 +116,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="OBS" />
             <display value="Obstetrics" />
@@ -131,7 +131,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="ONC" />
             <display value="Oncology" />
@@ -146,7 +146,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="PALL" />
             <display value="Palliative" />
@@ -161,7 +161,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="PED" />
             <display value="Pediatrics" />
@@ -176,7 +176,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="PHAR" />
             <display value="Pharmaceutical" />
@@ -191,7 +191,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="PHYRHB" />
             <display value="Physical Rehab" />
@@ -206,7 +206,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="PSYCH" />
             <display value="Psychiatric" />
@@ -221,7 +221,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="SURG" />
             <display value="Surgical" />
@@ -236,7 +236,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="AMB" />
             <display value="ambulatory" />
@@ -251,7 +251,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="EMER" />
             <display value="emergency" />
@@ -266,7 +266,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="FLD" />
             <display value="field" />
@@ -281,7 +281,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="HH" />
             <display value="home health" />
@@ -296,7 +296,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="IMP" />
             <display value="inpatient encounter" />
@@ -311,7 +311,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="SS" />
             <display value="short stay" />
@@ -326,7 +326,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="VR" />
             <display value="virtual" />
@@ -341,7 +341,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="PRENC" />
             <display value="pre-admission" />

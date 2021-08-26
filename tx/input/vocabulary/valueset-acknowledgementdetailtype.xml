@@ -11,7 +11,7 @@
         <timestamp value="2021-08-22T00:34:09-04:00" />
         <total value="3" />
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementDetailType" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailType" />
             <abstract value="false" />
             <code value="E" />
             <display value="Error" />
@@ -26,7 +26,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementDetailType" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailType" />
             <abstract value="false" />
             <code value="I" />
             <display value="Information" />
@@ -41,7 +41,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementDetailType" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailType" />
             <abstract value="false" />
             <code value="W" />
             <display value="Warning" />

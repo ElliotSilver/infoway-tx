@@ -11,7 +11,7 @@
         <timestamp value="2021-08-22T00:34:27-04:00" />
         <total value="4" />
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="CC" />
             <display value="credit card" />
@@ -56,7 +56,7 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="ACCTRECEIVABLE" />
             <display value="account receivable" />
@@ -71,13 +71,13 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="CASH" />
             <display value="Cash" />
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="PBILLACCT" />
             <display value="patient billing account" />

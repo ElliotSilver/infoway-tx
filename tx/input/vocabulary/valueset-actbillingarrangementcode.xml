@@ -11,7 +11,7 @@
         <timestamp value="2021-08-22T00:35:33-04:00" />
         <total value="7" />
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="BLK" />
             <display value="block funding" />
@@ -26,7 +26,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="CAP" />
             <display value="capitation funding" />
@@ -41,7 +41,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="CONTF" />
             <display value="contract funding" />
@@ -56,7 +56,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="FFS" />
             <display value="fee for service" />
@@ -71,7 +71,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="FINBILL" />
             <display value="financial" />
@@ -86,7 +86,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="ROST" />
             <display value="roster funding" />
@@ -101,7 +101,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/ActCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode" />
             <abstract value="false" />
             <code value="SESS" />
             <display value="sessional funding" />

@@ -11,7 +11,7 @@
         <timestamp value="2021-08-22T00:34:18-04:00" />
         <total value="6" />
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementType" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementType" />
             <abstract value="false" />
             <code value="AA" />
             <display value="Application Acknowledgement Accept" />
@@ -26,7 +26,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementType" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementType" />
             <abstract value="false" />
             <code value="AE" />
             <display value="Application Acknowledgement Error" />
@@ -41,7 +41,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementType" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementType" />
             <abstract value="false" />
             <code value="AR" />
             <display value="Application Acknowledgement Reject" />
@@ -56,7 +56,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementType" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementType" />
             <abstract value="false" />
             <code value="CA" />
             <display value="Accept Acknowledgement Commit Accept" />
@@ -71,7 +71,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementType" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementType" />
             <abstract value="false" />
             <code value="CE" />
             <display value="Accept Acknowledgement Commit Error" />
@@ -86,7 +86,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementType" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementType" />
             <abstract value="false" />
             <code value="CR" />
             <display value="Accept Acknowledgement Commit Reject" />

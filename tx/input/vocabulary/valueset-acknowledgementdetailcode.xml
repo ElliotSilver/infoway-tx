@@ -11,7 +11,7 @@
         <timestamp value="2021-08-22T00:33:56-04:00" />
         <total value="12" />
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementDetailCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode" />
             <abstract value="false" />
             <code value="NS200" />
             <display value="Unsupported interaction" />
@@ -26,7 +26,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementDetailCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode" />
             <abstract value="false" />
             <code value="NS202" />
             <display value="Unsupported processing id" />
@@ -41,7 +41,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementDetailCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode" />
             <abstract value="false" />
             <code value="NS203" />
             <display value="Unsupported version id" />
@@ -56,7 +56,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementDetailCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode" />
             <abstract value="false" />
             <code value="NS250" />
             <display value="Unsupported processing Mode" />
@@ -71,7 +71,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementDetailCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode" />
             <abstract value="false" />
             <code value="NS260" />
             <display value="Unknown sender" />
@@ -86,7 +86,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementDetailCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode" />
             <abstract value="false" />
             <code value="NS261" />
             <display value="Unrecognized attentionline" />
@@ -101,7 +101,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementDetailCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode" />
             <abstract value="false" />
             <code value="INTERR" />
             <display value="Internal system error" />
@@ -116,7 +116,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementDetailCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode" />
             <abstract value="false" />
             <code value="NOSTORE" />
             <display value="No storage space for message." />
@@ -131,7 +131,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementDetailCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode" />
             <abstract value="false" />
             <code value="RTEDEST" />
             <display value="Message routing error, destination unreachable." />
@@ -146,7 +146,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementDetailCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode" />
             <abstract value="false" />
             <code value="RTUDEST" />
             <display value="Error: message routing error, unknown destination." />
@@ -161,7 +161,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementDetailCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode" />
             <abstract value="false" />
             <code value="RTWDEST" />
             <display value="Message routing warning, destination unreachable." />
@@ -176,7 +176,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/AcknowledgementDetailCode" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-AcknowledgementDetailCode" />
             <abstract value="false" />
             <code value="SYN" />
             <display value="Syntax error." />

@@ -11,7 +11,7 @@
         <timestamp value="2021-08-19T01:25:31-04:00" />
         <total value="36" />
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="DROP" />
             <display value="Drops" />
@@ -41,13 +41,13 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="GASINHL" />
             <display value="Gas for Inhalation" />
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="AER" />
             <display value="Aerosol" />
@@ -77,13 +77,13 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="DERMSPRY" />
             <display value="Dermal Spray" />
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="FOAM" />
             <display value="Foam" />
@@ -113,19 +113,19 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="RECSPRY" />
             <display value="Rectal Spray" />
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="VAGSPRY" />
             <display value="Vaginal Spray" />
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="INHL" />
             <display value="Inhalant" />
@@ -161,19 +161,19 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="PWDSPRY" />
             <display value="Powder Spray" />
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="SPRYADAPT" />
             <display value="Spray with Adaptor" />
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="LIQCLN" />
             <display value="Liquid Cleanser" />
@@ -200,7 +200,7 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="OIL" />
             <display value="Oil" />
@@ -221,7 +221,7 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="SOL" />
             <display value="Solution" />
@@ -425,7 +425,7 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="CRM" />
             <display value="Cream" />
@@ -488,7 +488,7 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="LTN" />
             <display value="Lotion" />
@@ -509,7 +509,7 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="OINT" />
             <display value="Ointment" />
@@ -572,7 +572,7 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="GEL" />
             <display value="Gel" />
@@ -635,7 +635,7 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="PASTE" />
             <display value="Paste" />
@@ -671,7 +671,7 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="SUSP" />
             <display value="Suspension" />
@@ -725,7 +725,7 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="BAR" />
             <display value="Bar" />
@@ -758,7 +758,7 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="BEAD" />
             <display value="Beads" />
@@ -773,13 +773,13 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="CAKE" />
             <display value="Cake" />
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="CEMENT" />
             <display value="Cement" />
@@ -794,7 +794,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="CRYS" />
             <display value="Crystals" />
@@ -809,7 +809,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="DISK" />
             <display value="Disk" />
@@ -824,13 +824,13 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="FLAKE" />
             <display value="Flakes" />
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="GRAN" />
             <display value="Granules" />
@@ -845,7 +845,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="GUM" />
             <display value="Chewing Gum" />
@@ -860,7 +860,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="PAD" />
             <display value="Pad" />
@@ -872,7 +872,7 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="PATCH" />
             <display value="Patch" />
@@ -923,7 +923,7 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="PELLET" />
             <display value="Pellet" />
@@ -938,7 +938,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="PILL" />
             <display value="Pill" />
@@ -1172,7 +1172,7 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="POWD" />
             <display value="Powder" />
@@ -1205,7 +1205,7 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="SUPP" />
             <display value="Suppository" />
@@ -1238,7 +1238,7 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="SWAB" />
             <display value="Swab" />
@@ -1259,7 +1259,7 @@
             </contains>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/OrderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-OrderableDrugForm" />
             <abstract value="false" />
             <code value="WAFER" />
             <display value="Wafer" />

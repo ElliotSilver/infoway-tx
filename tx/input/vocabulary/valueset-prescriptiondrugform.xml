@@ -107,7 +107,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="AER" />
             <display value="Aerosol" />
@@ -131,7 +131,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="BAR" />
             <display value="Bar" />
@@ -155,7 +155,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="BEAD" />
             <display value="Beads" />
@@ -179,7 +179,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="BUCTAB" />
             <display value="Buccal tablet" />
@@ -203,7 +203,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="CAP" />
             <display value="Capsule" />
@@ -227,7 +227,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="CAPLET" />
             <display value="Caplet" />
@@ -251,7 +251,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="CHEWTAB" />
             <display value="Chewable tablet" />
@@ -275,7 +275,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="CRM" />
             <display value="Cream" />
@@ -299,7 +299,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="CRYS" />
             <display value="Crystals" />
@@ -323,7 +323,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="DERMSPRY" />
             <display value="Dermal spray" />
@@ -347,7 +347,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="DISINTAB" />
             <display value="Disintegrating tablet" />
@@ -371,7 +371,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="DISK" />
             <display value="Disk" />
@@ -395,7 +395,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="DROP" />
             <display value="Drops" />
@@ -419,7 +419,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="DRTAB" />
             <display value="Delayed release tablet" />
@@ -443,7 +443,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="ECTAB" />
             <display value="Enteric coated tablet" />
@@ -467,7 +467,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="ELIXIR" />
             <display value="Elixir" />
@@ -491,7 +491,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="ENEMA" />
             <display value="Enema" />
@@ -515,7 +515,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="ENTCAP" />
             <display value="Enteric coated capsule" />
@@ -539,7 +539,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="ERCAP" />
             <display value="Extended release capsule" />
@@ -563,7 +563,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="ERTAB" />
             <display value="Extended release tablet" />
@@ -587,7 +587,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="FLAKE" />
             <display value="Flakes" />
@@ -611,7 +611,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="FOAM" />
             <display value="Foam" />
@@ -635,7 +635,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="FOAMAPL" />
             <display value="Foam with Applicator" />
@@ -659,7 +659,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="GEL" />
             <display value="Gel" />
@@ -683,7 +683,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="GELAPL" />
             <display value="Gel with Applicator" />
@@ -707,7 +707,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="GRAN" />
             <display value="Granules" />
@@ -731,7 +731,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="IRSOL" />
             <display value="Irrigation Solution" />
@@ -755,7 +755,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="LTN" />
             <display value="Lotion" />
@@ -779,7 +779,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="MDINHL" />
             <display value="Metered dose inhaler" />
@@ -803,7 +803,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="MDINHLPWD" />
             <display value="Metered dose powder inhaler" />
@@ -827,7 +827,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="MEDPAD" />
             <display value="Medicated pad" />
@@ -851,7 +851,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="NASSPRY" />
             <display value="Nasal Spray" />
@@ -875,7 +875,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="OIL" />
             <display value="Oil" />
@@ -899,7 +899,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="OINT" />
             <display value="Ointment" />
@@ -923,7 +923,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="OINTAPL" />
             <display value="Ointment with applicator" />
@@ -947,7 +947,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="OPCRM" />
             <display value="Ophthalmic cream" />
@@ -971,7 +971,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="OPDROP" />
             <display value="Ophthalmic drops" />
@@ -995,7 +995,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="OPGEL" />
             <display value="Ophthalmic gel" />
@@ -1019,7 +1019,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="OPOINT" />
             <display value="Ophthalmic ointment" />
@@ -1043,7 +1043,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="ORALSOL" />
             <display value="Oral solution" />
@@ -1067,7 +1067,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="ORSUSP" />
             <display value="Oral suspension" />
@@ -1091,7 +1091,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="ORTROCHE" />
             <display value="Lozenge/Oral Troche" />
@@ -1115,7 +1115,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="OTCRM" />
             <display value="Otic cream" />
@@ -1139,7 +1139,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="OTDROP" />
             <display value="Otic drops" />
@@ -1163,7 +1163,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="OTGEL" />
             <display value="Otic gel" />
@@ -1187,7 +1187,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="OTOINT" />
             <display value="Otic ointment" />
@@ -1211,7 +1211,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="PAD" />
             <display value="Pad" />
@@ -1235,7 +1235,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="PASTE" />
             <display value="Paste" />
@@ -1259,7 +1259,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="PATCH" />
             <display value="Patch" />
@@ -1283,7 +1283,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="PELLET" />
             <display value="Pellet" />
@@ -1307,7 +1307,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="POWD" />
             <display value="Powder" />
@@ -1331,7 +1331,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="PUD" />
             <display value="Pudding" />
@@ -1355,7 +1355,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="RECCRM" />
             <display value="Rectal cream" />
@@ -1379,7 +1379,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="RECFORM" />
             <display value="Rectal foam" />
@@ -1403,7 +1403,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="RECOINT" />
             <display value="Rectal ointment" />
@@ -1427,7 +1427,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="RECSOL" />
             <display value="Rectal solution" />
@@ -1451,7 +1451,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="RECSUPP" />
             <display value="Rectal suppository" />
@@ -1475,7 +1475,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="RINSE" />
             <display value="Mouthwash/Rinse" />
@@ -1499,7 +1499,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="SHMP" />
             <display value="Shampoo" />
@@ -1523,7 +1523,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="SLTAB" />
             <display value="Sublingual tablet" />
@@ -1547,7 +1547,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="SOL" />
             <display value="Solution" />
@@ -1571,7 +1571,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="SPRY" />
             <display value="Sprays" />
@@ -1595,7 +1595,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="SPRYADAPT" />
             <display value="Spray with adaptor" />
@@ -1619,7 +1619,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="SUPP" />
             <display value="Suppository" />
@@ -1643,7 +1643,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="SUSP" />
             <display value="Suspension" />
@@ -1667,7 +1667,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="SWAB" />
             <display value="Swab" />
@@ -1691,7 +1691,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="SYRUP" />
             <display value="Syrup" />
@@ -1715,7 +1715,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="TAB" />
             <display value="Tablet" />
@@ -1739,7 +1739,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="TINC" />
             <display value="Tincture" />
@@ -1763,7 +1763,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="TOPPWD" />
             <display value="Topical Powder" />
@@ -1787,7 +1787,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="TPATCH" />
             <display value="Transdermal patch" />
@@ -1811,7 +1811,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="VAGCRM" />
             <display value="Vaginal cream" />
@@ -1835,7 +1835,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="VAGSUPP" />
             <display value="Vaginal suppository" />
@@ -1859,7 +1859,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="VAGTAB" />
             <display value="Vaginal tablet" />
@@ -1883,7 +1883,7 @@
             </designation>
         </contains>
         <contains>
-            <system value="http://hl7.org/fhir/v3/orderableDrugForm" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm" />
             <abstract value="false" />
             <code value="WAFER" />
             <display value="Wafer" />

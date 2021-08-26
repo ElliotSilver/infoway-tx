@@ -11,7 +11,7 @@
         <timestamp value="2021-08-19T01:22:30-04:00" />
         <total value="1" />
         <contains>
-            <system value="http://hl7.org/fhir/v3/NullFlavor" />
+            <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor" />
             <abstract value="false" />
             <code value="NI" />
             <display value="NoInformation" />
